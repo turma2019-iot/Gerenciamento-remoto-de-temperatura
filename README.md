@@ -14,9 +14,21 @@
 - [ ] definição da meta
 - [ ] definição das premissas
 - [ ] definição das restrições
-- [ ] definir quem fará o blog
-- [ ] definir quem fará o vídeo do youtube
+- [ ] definir quem fará o blog / gitHub
+- [ ] definir quem fará o vídeo (possibilidade de postar no youtube). Deverá ser espelho da apresentação à Banca.
 - [ ] cadastramento dos colaboradores no GitHub
+- [ ] estruturar e  redigir o Project Charter
+- [ ] estruturar e redigir o Relatório Técnico
+
+## Exemplo de Projetos realizados
+
+[Projeto TheBitBox - Vending Machine com compras por CriptoMoedas](https://thebitboxproject.wordpress.com)
+
+[Projeto STEVE-Sistema de TElemetria VEicular](https://projetosteve.wordpress.com/)
+
+[Projeto Trayker, robô de coleta de bandejas em shoppings](http://everson.dev)
+
+
 
 ## Repositories
 
