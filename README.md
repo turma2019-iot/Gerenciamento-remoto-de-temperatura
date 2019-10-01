@@ -30,7 +30,7 @@
 
 ## Elaboração do blog de acompanhamento do projeto
 
-[Modelo-Estrutura do Blog de Acompanhamento](Modelo-Estrutura do Blog de Acompanhamento.pdf)
+[Modelo-Estrutura do Blog de Acompanhamento](https://github.com/turma2019-iot/Gerenciamento-remoto-de-temperatura/blob/master/Modelo-Estrutura%20do%20Blog%20de%20Acompanhamento.pdf)
 
 ## Repositories
 
