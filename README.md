@@ -1,5 +1,9 @@
 # Gerenciamento remoto de Temperatura
 
+<p>Pessoal! Segue as relação das providências imediatas</p>
+
+[Projeto Gerenciamento de temperatura](https://github.com/turma2019-iot/Gerenciamento-remoto-de-temperatura/projects/1)
+
 ## Providências imediatas
 
  <ul>
@@ -11,10 +15,7 @@
   <li>definição da meta</li>
   <li>definição das premissas</li>
   <li>definição das restrições</li>
-  <li> </li>
-  <li> </li>
-  <li> </li>
- </ul> 
+</ul> 
 
 ## Repositories
 
