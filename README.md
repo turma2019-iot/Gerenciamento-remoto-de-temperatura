@@ -1,5 +1,7 @@
 # Gerenciamento remoto de Temperatura
 
+## Providências imediatas
+
  <ul>
   <li>gerente de equipe</li>
   <li>levantamento e definição do que iremos projetar (gerenciamento remoto de uma casa ou empresa</li>
