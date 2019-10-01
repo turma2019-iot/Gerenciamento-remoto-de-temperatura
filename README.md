@@ -6,9 +6,9 @@
 
 ## Providências imediatas
 
- <ul>
-  <li>gerente de equipe</li>
-  <li>levantamento e definição do que iremos projetar (gerenciamento remoto de uma casa ou empresa</li>
+- [ ] definição de quem será o gerente de equipe
+- [ ] levantamento e definição do que iremos projetar (gerenciamento remoto de uma casa ou empresa
+<ul>
   <li>quais dispositivos iremos utilizar e acionar</li>
   <li>título e nome do projeto</li>
   <li>especificação do objetivo</li>
