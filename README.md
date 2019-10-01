@@ -2,7 +2,7 @@
 
 <p>Pessoal! Segue as relação das providências imediatas</p>
 
-[Projeto Gerenciamento de temperatura](https://github.com/turma2019-iot/Gerenciamento-remoto-de-temperatura/projects/1)
+   [Projeto Gerenciamento de temperatura](https://github.com/turma2019-iot/Gerenciamento-remoto-de-temperatura/projects/1)
 
 ## Providências imediatas
 
