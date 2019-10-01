@@ -8,14 +8,12 @@
 
 - [ ] definição de quem será o gerente de equipe
 - [ ] levantamento e definição do que iremos projetar (gerenciamento remoto de uma casa ou empresa
-<ul>
-  <li>quais dispositivos iremos utilizar e acionar</li>
-  <li>título e nome do projeto</li>
-  <li>especificação do objetivo</li>
-  <li>definição da meta</li>
-  <li>definição das premissas</li>
-  <li>definição das restrições</li>
-</ul> 
+- [ ] quais dispositivos iremos utilizar e acionar
+- [ ] título e nome do projeto
+- [ ] especificação do objetivo
+- [ ] definição da meta
+- [ ] definição das premissas
+- [ ] definição das restrições
 
 ## Repositories
 
