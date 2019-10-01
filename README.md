@@ -14,6 +14,8 @@
 - [ ] definição da meta
 - [ ] definição das premissas
 - [ ] definição das restrições
+- [ ] definir quem fará o blog
+- [ ] definir quem fará o vídeo do youtube
 
 ## Repositories
 
