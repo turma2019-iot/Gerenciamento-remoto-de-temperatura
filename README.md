@@ -1,20 +1,13 @@
 # Gerenciamento remoto de Temperatura
 
-Checkbox: <input type="checkbox" id="myCheck"  onclick="myFunction()">
+<h1>Show checkboxes:</h1>
 
-<p id="text" style="display:none">Checkbox is CHECKED!</p>
-
-<script>
-function myFunction() {
-  var checkBox = document.getElementById("myCheck");
-  var text = document.getElementById("text");
-  if (checkBox.checked == true){
-    text.style.display = "block";
-  } else {
-     text.style.display = "none";
-  }
-}
-</script>
+<form action="/action_page.php">
+  <input type="checkbox" name="vehicle1" value="Bike"> I have a bike<br>
+  <input type="checkbox" name="vehicle2" value="Car"> I have a car<br>
+  <input type="checkbox" name="vehicle3" value="Boat" checked> I have a boat<br><br>
+  <input type="submit" value="Submit">
+</form>
 
 
 ## Repositories
