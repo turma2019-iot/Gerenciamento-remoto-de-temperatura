@@ -1,6 +1,6 @@
 # Gerenciamento remoto de Temperatura
 
-**Pessoal!** Segue relação de providências imediatas.
+**Pessoal!** :wave: Segue relação de providências imediatas.
 
 [Projeto Gerenciamento de temperatura](https://github.com/turma2019-iot/Gerenciamento-remoto-de-temperatura/projects/1)
 
