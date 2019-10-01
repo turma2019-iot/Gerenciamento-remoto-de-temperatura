@@ -1,13 +1,18 @@
 # Gerenciamento remoto de Temperatura
 
-<h1>Show checkboxes:</h1>
-
-
-  <input type="checkbox" name="vehicle1" value="Bike"> I have a bike<br>
-  <input type="checkbox" name="vehicle2" value="Car"> I have a car<br>
-  <input type="checkbox" name="vehicle3" value="Boat" checked> I have a boat<br><br>
-  <input type="submit" value="Submit">
-
+ <ul>
+  <li>gerente de equipe</li>
+  <li>levantamento e definição do que iremos projetar (gerenciamento remoto de uma casa ou empresa</li>
+  <li>quais dispositivos iremos utilizar e acionar</li>
+  <li>título e nome do projeto</li>
+  <li>especificação do objetivo</li>
+  <li>definição da meta</li>
+  <li>definição das premissas</li>
+  <li>definição das restrições</li>
+  <li> </li>
+  <li> </li>
+  <li> </li>
+ </ul> 
 
 ## Repositories
 
