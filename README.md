@@ -16,6 +16,7 @@
 - [ ] definição das restrições
 - [ ] definir quem fará o blog
 - [ ] definir quem fará o vídeo do youtube
+- [ ] cadastramento dos colaboradores no GitHub
 
 ## Repositories
 
