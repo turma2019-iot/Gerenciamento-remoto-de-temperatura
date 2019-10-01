@@ -30,7 +30,7 @@
 
 ## Elaboração do blog de acompanhamento do projeto
 
-[Modelo-Estrutura do Blog de Acompanhamento]
+[Modelo-Estrutura do Blog de Acompanhamento](Modelo-Estrutura do Blog de Acompanhamento.pdf)
 
 ## Repositories
 
