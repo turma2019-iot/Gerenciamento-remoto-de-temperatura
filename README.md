@@ -32,3 +32,6 @@
 
 [Modelo-Estrutura do Blog de Acompanhamento](https://github.com/turma2019-iot/Gerenciamento-remoto-de-temperatura/blob/master/Modelo-Estrutura%20do%20Blog%20de%20Acompanhamento.pdf)
 
+## Relatório técnico
+
+[Estrutura do Relatório Técnico]
