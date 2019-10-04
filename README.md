@@ -37,4 +37,10 @@
 [Estrutura do Relatório Técnico](https://github.com/turma2019-iot/Gerenciamento-remoto-de-temperatura/blob/master/Estrutura%20do%20Relat%C3%B3rio%20T%C3%A9cnico.pdf)
 ### Exemplo de Relatório Técnicos
 
+[Relatório Técnico - BitBox-uma Cripto-Vending Machine operada via celular](https://github.com/turma2019-iot/Gerenciamento-remoto-de-temperatura/blob/master/Relat%C3%B3rio%20T%C3%A9cnico%20-%20BitBox-uma%20Cripto-Vending%20Machine%20operada%20via%20celular.pdf)
+
+[Relatório Técnico - Steve-Sistema de Telemetria Veicular](https://github.com/turma2019-iot/Gerenciamento-remoto-de-temperatura/blob/master/Relat%C3%B3rio%20T%C3%A9cnico%20-%20Steve-Sistema%20de%20Telemetria%20Veicular.pdf)
+
+[Relatório Técnico - Trayker - Um sistema automatizado de coleta de bandejas](https://github.com/turma2019-iot/Gerenciamento-remoto-de-temperatura/blob/master/Relat%C3%B3rio%20T%C3%A9cnico%20-%20Trayker%20-%20Um%20sistema%20automatizado%20de%20coleta%20de%20bandejas.pdf)
+
 
