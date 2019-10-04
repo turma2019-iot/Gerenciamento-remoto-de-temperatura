@@ -34,4 +34,7 @@
 
 ## Relatório técnico
 
-[Estrutura do Relatório Técnico]
+[Estrutura do Relatório Técnico](https://github.com/turma2019-iot/Gerenciamento-remoto-de-temperatura/blob/master/Estrutura%20do%20Relat%C3%B3rio%20T%C3%A9cnico.pdf)
+### Exemplo de Relatório Técnicos
+
+
