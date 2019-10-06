@@ -2,13 +2,17 @@
 
 **Pessoal!** :wave: Segue relação de providências imediatas.
 
-[Projeto Gerenciamento de temperatura](https://github.com/turma2019-iot/Gerenciamento-remoto-de-temperatura/projects/1)
+Projeto Gerenciamento de temperatura](https://github.com/turma2019-iot/Gerenciamento-remoto-de-temperatura/projects/1)
 
-## Providências imediatas para 
+## Providências imediatas para 11/10/2019
 
 - [ ] estruturar e redigir o Relatório Técnico
+- [ ] cadastramento dos colaboradores no GitHub
 
 ## Providências realizadas 
+
+### 04/10/2019
+
 - [x] definição de quem será o gerente de equipe
 - [x] levantamento e definição do que iremos projetar (gerenciamento remoto de uma casa ou empresa)
 - [x] quais dispositivos iremos utilizar e acionar
@@ -19,7 +23,6 @@
 - [x] definição das restrições
 - [x] definir quem fará o blog / gitHub de acompanhamento do projeto
 - [x] definir quem fará o vídeo (possibilidade de postar no youtube). Deverá ser espelho da apresentação à Banca.
-- [ ] cadastramento dos colaboradores no GitHub
 - [x] estruturar e  redigir o Plano de Projeto (Project Charter)
 
 
