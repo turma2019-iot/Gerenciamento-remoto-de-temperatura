@@ -4,21 +4,24 @@
 
 [Projeto Gerenciamento de temperatura](https://github.com/turma2019-iot/Gerenciamento-remoto-de-temperatura/projects/1)
 
-## Providências imediatas
+## Providências imediatas para 
 
-- [ ] definição de quem será o gerente de equipe
-- [ ] levantamento e definição do que iremos projetar (gerenciamento remoto de uma casa ou empresa)
-- [ ] quais dispositivos iremos utilizar e acionar
-- [ ] título e nome do projeto
-- [ ] especificação do objetivo
-- [ ] definição da meta
-- [ ] definição das premissas
-- [ ] definição das restrições
-- [ ] definir quem fará o blog / gitHub de acompanhamento do projeto
-- [ ] definir quem fará o vídeo (possibilidade de postar no youtube). Deverá ser espelho da apresentação à Banca.
-- [ ] cadastramento dos colaboradores no GitHub
-- [ ] estruturar e  redigir o Project Charter
 - [ ] estruturar e redigir o Relatório Técnico
+
+## Providências realizadas 
+- [x] definição de quem será o gerente de equipe
+- [x] levantamento e definição do que iremos projetar (gerenciamento remoto de uma casa ou empresa)
+- [x] quais dispositivos iremos utilizar e acionar
+- [x] título e nome do projeto
+- [x] especificação do objetivo
+- [x] definição da meta
+- [x] definição das premissas
+- [x] definição das restrições
+- [x] definir quem fará o blog / gitHub de acompanhamento do projeto
+- [x] definir quem fará o vídeo (possibilidade de postar no youtube). Deverá ser espelho da apresentação à Banca.
+- [ ] cadastramento dos colaboradores no GitHub
+- [x] estruturar e  redigir o Plano de Projeto (Project Charter)
+
 
 ## Exemplo de Projetos realizados
 
