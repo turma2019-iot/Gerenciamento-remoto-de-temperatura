@@ -6,9 +6,16 @@
 
 ## Providências imediatas para 11/10/2019
 
-- [ ] estruturar e redigir o Relatório Técnico
-- [ ] cadastramento dos colaboradores no GitHub
-- [ ] complementar as informações do cronogramas das etapas
+- [ ] Sérgio - estruturar e redigir o Relatório Técnico 
+- [ ] Rafael - complementar as informações do cronogramas das etapas
+- [ ] Pablo - ajustar Blog conforme apresentado no plano de projeto
+- [ ] Sérgio - ajustar o plano de projeto
+- [ ] Todos - apresentação das especificações do Projeto 
+      - [ ] requisitos de sistema
+	    - [ ] casos de uso
+	    - [ ] modelos UML
+- [ ] Marcelo e Sérgio - Levantamento dos equipamentos e materiais a serem utilizados
+- [ ] Marcelo e Sérgio - Levantamento de custos
 
 ## Providências realizadas 
 ```
@@ -49,5 +56,4 @@
 [Relatório Técnico - Steve-Sistema de Telemetria Veicular](https://github.com/turma2019-iot/Gerenciamento-remoto-de-temperatura/blob/master/Relat%C3%B3rio%20T%C3%A9cnico%20-%20Steve-Sistema%20de%20Telemetria%20Veicular.pdf)
 
 [Relatório Técnico - Trayker - Um sistema automatizado de coleta de bandejas](https://github.com/turma2019-iot/Gerenciamento-remoto-de-temperatura/blob/master/Relat%C3%B3rio%20T%C3%A9cnico%20-%20Trayker%20-%20Um%20sistema%20automatizado%20de%20coleta%20de%20bandejas.pdf)
-
 
