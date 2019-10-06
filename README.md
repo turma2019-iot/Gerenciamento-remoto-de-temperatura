@@ -6,10 +6,6 @@
 
 ## Providências imediatas para 11/10/2019
 
-- [ ] Sérgio - estruturar e redigir o Relatório Técnico 
-- [ ] Rafael - complementar as informações do cronogramas das etapas
-- [ ] Pablo - ajustar Blog conforme apresentado no plano de projeto
-- [ ] Sérgio - ajustar o plano de projeto
 - [ ] Todos - apresentação das especificações do Projeto 
 
       [ ] requisitos de sistema
@@ -18,6 +14,10 @@
       
 - [ ] Marcelo e Sérgio - Levantamento dos equipamentos e materiais a serem utilizados
 - [ ] Marcelo e Sérgio - Levantamento de custos
+- [ ] Pablo - ajustar Blog conforme apresentado no plano de projeto
+- [ ] Rafael - complementar as informações do cronogramas das etapas
+- [ ] Sérgio - estruturar e redigir o Relatório Técnico 
+- [ ] Sérgio - ajustar o plano de projeto
 
 ## Providências realizadas 
 ```
