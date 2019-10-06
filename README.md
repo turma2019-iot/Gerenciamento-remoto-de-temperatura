@@ -12,9 +12,9 @@
 - [ ] Sérgio - ajustar o plano de projeto
 - [ ] Todos - apresentação das especificações do Projeto 
 
-      - [ ] requisitos de sistema
-      - [ ] casos de uso
-      - [ ] modelos UML
+      [ ] requisitos de sistema
+      [ ] casos de uso
+      [ ] modelos UML
       
 - [ ] Marcelo e Sérgio - Levantamento dos equipamentos e materiais a serem utilizados
 - [ ] Marcelo e Sérgio - Levantamento de custos
