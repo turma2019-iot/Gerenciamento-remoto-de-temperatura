@@ -35,7 +35,23 @@
 - [x] definir quem fará o vídeo (possibilidade de postar no youtube). Deverá ser espelho da apresentação à Banca.
 - [x] estruturar e  redigir o Plano de Projeto (Project Charter)
 
+:sparkles: **Cronograma de atividades** :sparkles:
 
+- [x] **27/09/2019** - Apresentação da disciplina
+- [x] **04/10/2019** - Acompanhamento dos projetos: Apresentação das **Propostas de Projeto** (Plano do Projeto)
+- [ ] **11/10/2019** - Acompanhamento dos projetos: Apresentação das **Especificações do Projeto** (Requisitos de Sistema, Casos de Uso, Modelos UML)
+- [ ] **18/10/2019** - Acompanhamento dos projetos: Apresentação do **Entregável 01** (implementação parcial, 30% dos requisitos)
+- [ ] **25/10/2019** - Acompanhamento dos projeto: Apresentação do **Entregável 02** (implementação parcial, 60% dos requisitos)
+- [ ] **01/11/2019** - Acompanhamento dos projetos: Apresentação Final do Projeto (implementação final, 100% dos requisitos)
+- [ ] **3/11/2019 (domingo) - Entrega do trabalho (via Moodle)**
+
+:sparkles: **Resumo de entregáveis** :sparkles:
+
+- [x] Plano do Projeto
+- [x] Especificação do Projeto
+- [x] Blog público de acomponamento da execução do projeto
+- [x] Repositório público contendo o sofware e demais artefatos produzidos durante a execução do projeto (deve ser atualizado frequentenente para evidenciar o andamento das atividades de implementação)
+- [x] Relatório técnico (final)
 ## Exemplo de Projetos realizados
 
 [Projeto TheBitBox - Vending Machine com compras por CriptoMoedas](https://thebitboxproject.wordpress.com)
