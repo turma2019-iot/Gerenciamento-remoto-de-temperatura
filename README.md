@@ -10,9 +10,9 @@ Projeto Gerenciamento de temperatura](https://github.com/turma2019-iot/Gerenciam
 - [ ] cadastramento dos colaboradores no GitHub
 
 ## Providências realizadas 
-
+```
 ### 04/10/2019
-
+```
 - [x] definição de quem será o gerente de equipe
 - [x] levantamento e definição do que iremos projetar (gerenciamento remoto de uma casa ou empresa)
 - [x] quais dispositivos iremos utilizar e acionar
