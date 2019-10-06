@@ -8,6 +8,7 @@
 
 - [ ] estruturar e redigir o Relatório Técnico
 - [ ] cadastramento dos colaboradores no GitHub
+- [ ] complementar as informações do cronogramas das etapas
 
 ## Providências realizadas 
 ```
