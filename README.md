@@ -2,7 +2,7 @@
 
 **Pessoal!** :wave: Segue relação de providências imediatas.
 
-Projeto Gerenciamento de temperatura](https://github.com/turma2019-iot/Gerenciamento-remoto-de-temperatura/projects/1)
+[Projeto Gerenciamento de temperatura](https://github.com/turma2019-iot/Gerenciamento-remoto-de-temperatura/projects/1)
 
 ## Providências imediatas para 11/10/2019
 
