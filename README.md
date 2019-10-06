@@ -12,12 +12,12 @@
       [ ] casos de uso
       [ ] modelos UML
       
-- [ ] Marcelo e Sérgio - Levantamento dos equipamentos e materiais a serem utilizados
-- [ ] Marcelo e Sérgio - Levantamento de custos
-- [ ] Pablo - ajustar Blog conforme apresentado no plano de projeto
-- [ ] Rafael - complementar as informações do cronogramas das etapas
-- [ ] Sérgio - estruturar e redigir o Relatório Técnico 
-- [ ] Sérgio - ajustar o plano de projeto
+- [ ] **Marcelo e Sérgio** - Levantamento dos equipamentos e materiais a serem utilizados
+- [ ] **Marcelo e Sérgio** - Levantamento de custos
+- [ ] **Pablo** - ajustar Blog conforme apresentado no plano de projeto
+- [ ] **Rafael** - complementar as informações do cronogramas das etapas
+- [ ] **Sérgio** - estruturar e redigir o Relatório Técnico 
+- [ ] **Sérgio** - ajustar o plano de projeto
 
 ## Providências realizadas 
 ```
