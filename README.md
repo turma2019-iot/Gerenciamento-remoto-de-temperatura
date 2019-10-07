@@ -20,7 +20,9 @@
 - [ ] Repositório público contendo o sofware e demais artefatos produzidos durante a execução do projeto (deve ser atualizado frequentenente para evidenciar o andamento das atividades de implementação)
 - [ ] Relatório técnico (final)
 
+```
 **Pessoal!** :wave: Segue relação de providências imediatas.
+```
 
 ## Providências imediatas para 11/10/2019
 
