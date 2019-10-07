@@ -39,8 +39,8 @@
 - [ ] **Todos** - levantamento da base teórica do projeto
 - [ ] **Johnathan** - Reanálise de riscos em função dos riscos apresentados no plano de projeto (04/10/2019). Utilizar modelo disponível [Modelo de análise de riscos-doc](https://github.com/turma2019-iot/Gerenciamento-remoto-de-temperatura/blob/master/Modelo%20de%20an%C3%A1lise%20de%20riscos-doc.docx) 
 - [ ] **Johnathan** - Montar o Perfil da equipe necessária para realizar o projeto - vide pág.1 das [instruçoes do blog](https://github.com/turma2019-iot/Gerenciamento-remoto-de-temperatura/blob/master/Modelo-Estrutura%20do%20Blog%20de%20Acompanhamento.pdf) - e entregar ao Pablo para postar no Blog. 
-- [ ] **Marcelo e Sérgio** - Levantamento dos equipamentos e materiais a serem utilizados e base teórica do projeto.
-- [ ] **Marcelo e Sérgio** - Levantamento de custos
+- [ ] **Marcelo e Sérgio** - Levantamento dos equipamentos e materiais a serem utilizados e suas especificações técnicas.
+- [ ] **Marcelo e Sérgio** - Levantamento de custos.
 - [ ] **Pablo** - postar a base teórica do projeto no blog de acompanhamento.
 - [ ] **Pablo** - ajustar Blog conforme apresentado no plano de projeto
 - [ ] **Rafael** - ajustar/complementar as informações do cronogramas das etapas.
