@@ -21,7 +21,7 @@
 - [ ] Relatório técnico (final)
 
 ```
-**Pessoal!** :wave: Segue relação de providências imediatas.
+Pessoal!  Segue relação de providências imediatas.
 ```
 
 ## Providências imediatas para 11/10/2019
