@@ -1,5 +1,7 @@
 # Gerenciamento remoto de Temperatura
 
+**Pessoal!** :wave: Segue relação de providências imediatas.
+
 [Projeto Gerenciamento de temperatura](https://github.com/turma2019-iot/Gerenciamento-remoto-de-temperatura/projects/1)
 
 :sparkles: **Cronograma de atividades** :sparkles:
@@ -16,13 +18,9 @@
 
 - [x] Plano do Projeto
 - [ ] Especificação do Projeto
-- [ ] Blog público de acomponamento da execução do projeto
+- [ ] Blog público de acompanhamento da execução do projeto
 - [ ] Repositório público contendo o sofware e demais artefatos produzidos durante a execução do projeto (deve ser atualizado frequentenente para evidenciar o andamento das atividades de implementação)
 - [ ] Relatório técnico (final)
-
-```
-Pessoal!  Segue relação de providências imediatas.
-```
 
 ## Providências imediatas para 11/10/2019
 
@@ -32,32 +30,52 @@ Pessoal!  Segue relação de providências imediatas.
       [ ] casos de uso
       [ ] modelos UML
 
+- [ ] **Todos** - levantar as dificuldades entradas no projeto até o momento.
 - [ ] **Johnathan** - Reanálise de riscos em função dos riscos apresentados no plano de projeto (04/10/2019) 
-- [ ] **Johnathan** - Montar o Perfil da equipe necessária para realizar o projeto (vide pág.1 das instruçoes do blog) e entregar ao Pablo para postar no Blog.     
-- [ ] **Marcelo e Sérgio** - Levantamento dos equipamentos e materiais a serem utilizados
-- [ ] ** 
+- [ ] **Johnathan** - Montar o Perfil da equipe necessária para realizar o projeto (vide pág.1 das instruçoes do blog) e entregar ao Pablo para postar no Blog. 
+- [ ] **Johnathan** - Ajudar Marcelo e Sérgio a levantar a base teórica do projeto (documentos, referências bibliográficas, vídeos, links) entregar ao Pablo para postar no Blog.   
+- [ ] **Marcelo e Sérgio** - Levantamento dos equipamentos e materiais a serem utilizados e base teórica do projeto.
 - [ ] **Marcelo e Sérgio** - Levantamento de custos
+- [ ] **Pablo** - ajudar Johnathan, Marcelo e Sérgio no levantamento da base teórica do projeto. Postar no blog de acompanhamento.
 - [ ] **Pablo** - ajustar Blog conforme apresentado no plano de projeto
-- [ ] **Rafael** - complementar as informações do cronogramas das etapas
+
+- [ ] **Rafael** - ajustar/complementar as informações do cronogramas das etapas.
+- [ ] **Rafael** - registrar as dificuldades (conforme documento [Dificuldades.doc](https://github.com/turma2019-iot/Gerenciamento-remoto-de-temperatura/blob/master/Dificuldades.docx) encontradas até o momento conforme reunião com a equipe e passar para Pablo postar no blog.
+- [ ] **Rafael** - levantar as atividades futuras que culminaram em 30% dos requisitos a serem entregues e constar no cronograma. Entregar ao Pablo para postar no Blog.
 - [ ] **Sérgio** - estruturar e redigir o Relatório Técnico 
-- [ ] **Sérgio** - ajustar o plano de projeto
+- [ ] **Sérgio** - ajustar a apresentação o plano de projeto entregue em 04/10/2019 e postar no Moodle.
 
 ## Entrega 01 - 11/10/2019
  
-- Detalhar os itens da entrega 
-- Serão avaliados conteúdo e qualidade 
-- Ver Modelo de Entrega 1 anexo a este documento 
-
 - Bases teóricas (obrigatório) 
+
+   - constar fonte de referência bibliográfica que informe como será realizado a leitura de temperatura de um ambiente residencial.
+   - quais equipamentos serão utilizados para realização destas leituras, qual a especificação técnica dos materiais e equipamentos?
+   - qual a diferenciação de um material/equipamento de um em relação ao outro?
+   - quais são os custos e diferença de preços de um para o outro?
+   - como se realizará o processo de comunicação entre os vários equipamentos? Qual o pré-requisito necessário para que ocorra tal comunicação?
+   - qual o protocolo será adotado?
+   - o que é necessário para que o projeto se concretize levando-se em consideração os aspectos técnicos, operacionais e financeiros?
+
 - Re-avaliação de riscos (obrigatório) 
+   
+   - re-avaliar os riscos possíveis existentes e apresentar novamente conforme modelo de riscos (inclusive os apresentados no plano de projeto).
+
 - Acompanhamento do cronograma (obrigatório) 
+
+   - atualizar o cronograma de atividades do projeto.
+   
 - Dificuldades (obrigatório) 
+  
+   - apontar as dificuldades encontradas no projeto - entrega 01.
+   
 - Atividades futuras (obrigatório) 
  
+   - informar as atividades futuras do projeto a serem apresentadas na entrega 02.
 
 ###**Johnathan**
-	- redigir análise de riscos conforme modelo .doc e .pdf 
-	- entregar para Sérgio e Pablo para vincular ao plano de projeto e blog.
+	- redigir reanálise de riscos conforme modelo .doc e .pdf 
+	- entregar ao Pablo para vincular ao plano de projeto e blog.
 	
 ###**Marcelo**
 
