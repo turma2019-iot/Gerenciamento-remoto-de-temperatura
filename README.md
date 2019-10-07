@@ -22,7 +22,7 @@
 
 **Pessoal!** :wave: Segue relação de providências imediatas.
 
-## Providências imediatas para 11/10/2019
+## Providências IMEDIATAS para 11/10/2019
 
 - [ ] **Todos** - apresentação das especificações do Projeto 
 
@@ -30,7 +30,7 @@
       [ ] casos de uso
       [ ] modelos UML
 
-## Providências imediatas para 18/10/2019
+## Providências para 18/10/2019
 
 - [ ] **Todos** - levantar as dificuldades entradas no projeto até o momento.
 - [ ] **Johnathan** - Reanálise de riscos em função dos riscos apresentados no plano de projeto (04/10/2019) 
@@ -46,7 +46,7 @@
 - [ ] **Sérgio** - estruturar e redigir o Relatório Técnico 
 - [ ] **Sérgio** - ajustar a apresentação o plano de projeto entregue em 04/10/2019 e postar no Moodle.
 
-## Entrega 01 - 11/10/2019
+## Entrega 01 - 18/10/2019
  
 - Bases teóricas (obrigatório) 
 
