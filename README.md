@@ -29,7 +29,8 @@
       [ ] requisitos de sistema
       [ ] casos de uso
       [ ] modelos UML
-	  
+
+- [ ] **Rafael** - completar o cronograma e passar para Sérgio para que inserir ao plano de projeto e Esse postar no Moodle. Obs. Deveria ser postado dia 04/10/2019.	  
 - [ ] **Sérgio** - ajustar a apresentação o plano de projeto entregue em 04/10/2019 e postar no Moodle.
 - [ ] **Sérgio** - estruturar o Relatório Técnico
 
