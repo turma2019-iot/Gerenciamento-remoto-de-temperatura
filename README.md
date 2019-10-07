@@ -30,6 +30,8 @@
       [ ] casos de uso
       [ ] modelos UML
 
+## Providências imediatas para 18/10/2019
+
 - [ ] **Todos** - levantar as dificuldades entradas no projeto até o momento.
 - [ ] **Johnathan** - Reanálise de riscos em função dos riscos apresentados no plano de projeto (04/10/2019) 
 - [ ] **Johnathan** - Montar o Perfil da equipe necessária para realizar o projeto (vide pág.1 das instruçoes do blog) e entregar ao Pablo para postar no Blog. 
@@ -38,7 +40,6 @@
 - [ ] **Marcelo e Sérgio** - Levantamento de custos
 - [ ] **Pablo** - ajudar Johnathan, Marcelo e Sérgio no levantamento da base teórica do projeto. Postar no blog de acompanhamento.
 - [ ] **Pablo** - ajustar Blog conforme apresentado no plano de projeto
-
 - [ ] **Rafael** - ajustar/complementar as informações do cronogramas das etapas.
 - [ ] **Rafael** - registrar as dificuldades (conforme documento [Dificuldades.doc](https://github.com/turma2019-iot/Gerenciamento-remoto-de-temperatura/blob/master/Dificuldades.docx) encontradas até o momento conforme reunião com a equipe e passar para Pablo postar no blog.
 - [ ] **Rafael** - levantar as atividades futuras que culminaram em 30% dos requisitos a serem entregues e constar no cronograma. Entregar ao Pablo para postar no Blog.
@@ -72,21 +73,6 @@
 - Atividades futuras (obrigatório) 
  
    - informar as atividades futuras do projeto a serem apresentadas na entrega 02.
-
-###**Johnathan**
-	- redigir reanálise de riscos conforme modelo .doc e .pdf 
-	- entregar ao Pablo para vincular ao plano de projeto e blog.
-	
-###**Marcelo**
-
-
-
-###**Pablo**
-
-###**Rafael**
-
-###**Sérgio**
-
 
 
 ## Providências realizadas 
