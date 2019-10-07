@@ -1,7 +1,5 @@
 # Gerenciamento remoto de Temperatura
 
-**Pessoal!** :wave: Segue relação de providências imediatas.
-
 [Projeto Gerenciamento de temperatura](https://github.com/turma2019-iot/Gerenciamento-remoto-de-temperatura/projects/1)
 
 :sparkles: **Cronograma de atividades** :sparkles:
@@ -21,6 +19,8 @@
 - [ ] Blog público de acomponamento da execução do projeto
 - [ ] Repositório público contendo o sofware e demais artefatos produzidos durante a execução do projeto (deve ser atualizado frequentenente para evidenciar o andamento das atividades de implementação)
 - [ ] Relatório técnico (final)
+
+**Pessoal!** :wave: Segue relação de providências imediatas.
 
 ## Providências imediatas para 11/10/2019
 
