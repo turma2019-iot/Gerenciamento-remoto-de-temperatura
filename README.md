@@ -2,7 +2,7 @@
 
 [Projeto Gerenciamento de temperatura](https://github.com/turma2019-iot/Gerenciamento-remoto-de-temperatura/projects/1)
 
-[Blog de Acompanhamento - em construção - será substituído por outro site](https://gerenciamentotemperaturaturma2019.blogspot.com/)
+[Blog de Acompanhamento - será substituído por outro site - em construção](https://gerenciamentotemperaturaturma2019.blogspot.com/)
 
 :sparkles: **Cronograma de atividades** :sparkles:
 
@@ -35,7 +35,16 @@
 
       [ ] requisitos de sistema
       [ ] casos de uso
+			
+		1 - Configuração do dispositivo para conexão à internet, usar bluetooth (usuário)
+		2 - Definição de limites de temperatura (usuário)
+		3 - Controle automático da temperatura pelo dispositivo (sistema)
+		4 - Fechamento automático das janelas (sistema)
+		5 - Controle das janelas pelo usuário (usuário)
+		[Utilizar a ferramenta web draw.io](https://www.draw.io)
+
       [ ] modelos UML
+
 
 - [ ] **Rafael** - completar o cronograma e passar para Sérgio para que inserir ao plano de projeto e Esse postar no Moodle. Obs. Deveria ser postado dia 04/10/2019.	  
 - [ ] **Sérgio** - ajustar a apresentação o plano de projeto entregue em 04/10/2019 e postar no Moodle.
