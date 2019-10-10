@@ -37,22 +37,29 @@
 
 ### Dificuldades encontradas
 
+**09/10/2019**
+
 - indefinição dos casos de uso dada a diversidade de fatores envolvidos
 - indefinição do protocolo a ser adotado
 - indefinição processo de comunicação com a nuvem
 - falta de conhecimento de como utilizar a comunicação do aplicativo com os sensores por bluetooth
 - prazo restrito haja visto que todos apresentam outras atividades durante o dia
+- escolha de site para postar o blog que seja mais flexível e com mais recursos de apresentação.
 
 ### Possíveis soluções para processo de comunicação com a nuvem e protocolo a ser adotado
 
 **09/10/2019**
 
 [Mosquitto . Um cliente/servidor MQTT](https://cadernodelaboratorio.com.br/2018/12/05/mosquitto-um-cliente-servidor-mqtt/)
+
 [MQTT – Um protocolo para IoT](https://cadernodelaboratorio.com.br/2018/11/30/mqtt-um-protocolo-para-iot/)
+
 [Temperature Data record on AWS IoT Core with NodeMCU-ESP32 using Arduino IDE and MQTT Protocol](https://www.youtube.com/watch?v=2y0w977q_yk)
+
 [ESP32 | FLUTTER | FIREBASE - Temperature & Humidity Check App](https://www.youtube.com/watch?v=nVrACWPXi8g)
 [Connected Home IoT Use Cases](https://aws.amazon.com/pt/iot/solutions/connected-home/)
 
+[Wix.com - Crie um Site Incrível Grátis](https://pt.wix.com/criarsitegratis/pt900?utm_source=bing&utm_campaign=MS_Wix_NEW%5EWix_PR&experiment_id=wix%5Ebp%5E8519664405%5Ewix+login&msclkid=c9063d85d1e51754412c601baf358216&utm_medium=cpc)
 
 ## Providências para 18/10/2019
 
