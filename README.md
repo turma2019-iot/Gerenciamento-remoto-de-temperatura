@@ -59,6 +59,8 @@
 [ESP32 | FLUTTER | FIREBASE - Temperature & Humidity Check App](https://www.youtube.com/watch?v=nVrACWPXi8g)
 [Connected Home IoT Use Cases](https://aws.amazon.com/pt/iot/solutions/connected-home/)
 
+[ESP8266 talking to AWS IoT using MQTT](https://www.youtube.com/watch?v=AiCa6E_DBL8)
+
 [Wix.com - Crie um Site Incrível Grátis](https://pt.wix.com/criarsitegratis/pt900?utm_source=bing&utm_campaign=MS_Wix_NEW%5EWix_PR&experiment_id=wix%5Ebp%5E8519664405%5Ewix+login&msclkid=c9063d85d1e51754412c601baf358216&utm_medium=cpc)
 
 ## Providências para 18/10/2019
