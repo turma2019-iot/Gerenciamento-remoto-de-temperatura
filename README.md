@@ -65,6 +65,23 @@
 
 [Wix.com - Crie um Site Incrível Grátis](https://pt.wix.com/criarsitegratis/pt900?utm_source=bing&utm_campaign=MS_Wix_NEW%5EWix_PR&experiment_id=wix%5Ebp%5E8519664405%5Ewix+login&msclkid=c9063d85d1e51754412c601baf358216&utm_medium=cpc)
 
+[Programar ESP32 com a IDE Arduino – Tutorial Completo](https://www.usinainfo.com.br/blog/programar-esp32-com-a-ide-arduino-tutorial-completo/)
+
+[Tutorial: Intro to Grove Connectors for Arduino/Raspberry Pi Projects](https://www.seeedstudio.com/blog/2016/03/09/tutorial-intro-to-grove-connectors-for-arduinoraspberry-pi-projects/)
+
+[What is the Grove System?](http://wiki.seeedstudio.com/Grove_System/)
+
+[Projeto ESP32 com Display 16×2](https://www.usinainfo.com.br/blog/esp32-projeto-com-display/)
+
+[ESP32 WiFi: Comunicação com a Internet](https://www.usinainfo.com.br/blog/esp32-wifi-comunicacao-com-a-internet/)
+
+[Projeto ESP32 com Display OLED e Sensor AM2302 DHT22 Medindo Temperatura e Umidade](https://www.usinainfo.com.br/blog/projeto-esp32-com-display-oled-e-sensor-am2302-dht22-medindo-temperatura-e-umidade/)
+
+[ESP32 Tutorial com Primeiros Passos](https://www.usinainfo.com.br/blog/esp32-tutorial-com-primeiros-passos/)
+
+[ESP32 Display Oled: Programando o Display do NodeMCU ESP32](https://www.usinainfo.com.br/blog/programando-o-display-do-nodemcu-esp32-oled/)
+
+
 ## Providências para 18/10/2019
 
 - [ ] **Todos** - levantar as dificuldades encontradas no projeto até o momento.
