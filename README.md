@@ -3,6 +3,7 @@
 [Projeto Gerenciamento de temperatura](https://github.com/turma2019-iot/Gerenciamento-remoto-de-temperatura/projects/1)
 
 :sparkles: **Cronograma de atividades** :sparkles:
+[Cronograma do Projeto - Gerenciamento Remoto de Temperatura](https://docs.google.com/spreadsheets/d/1Pu73FoE6jFfJ5qRj0j9g9AZ2rGhJDiFGWlH0jN2NiLo/edit#gid=0)
 
 - [x] **27/09/2019** - Apresentação da disciplina
 - [x] **04/10/2019** - Acompanhamento dos projetos: Apresentação das **Propostas de Projeto** (Plano do Projeto)
