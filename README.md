@@ -34,6 +34,14 @@
 - [ ] **Sérgio** - ajustar a apresentação o plano de projeto entregue em 04/10/2019 e postar no Moodle.
 - [ ] **Sérgio** - estruturar o Relatório Técnico
 
+### Dificuldades encontradas
+
+- indefinição dos casos de uso dada a diversidade de fatores envolvidos
+- indefinição do protocolo a ser adotado
+- indefinição processo de comunicação com a nuvem
+- falta de conhecimento de como utilizar a comunicação do aplicativo com os sensores por bluetooth
+- prazo restrito haja visto que todos apresentam outras atividades durante o dia
+
 ## Providências para 18/10/2019
 
 - [ ] **Todos** - levantar as dificuldades encontradas no projeto até o momento.
