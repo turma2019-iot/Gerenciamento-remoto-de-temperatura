@@ -2,7 +2,7 @@
 
 [Projeto Gerenciamento de temperatura](https://github.com/turma2019-iot/Gerenciamento-remoto-de-temperatura/projects/1)
 
-[Blog de Acompanhamento - será substituído por outro site - em construção](https://gerenciamentotemperaturaturma2019.blogspot.com/)
+[Blog de Acompanhamento - em construção - será substituído por outro site](https://gerenciamentotemperaturaturma2019.blogspot.com/)
 
 :sparkles: **Cronograma de atividades** :sparkles:
 
