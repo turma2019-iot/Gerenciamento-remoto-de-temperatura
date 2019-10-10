@@ -43,6 +43,10 @@
 - falta de conhecimento de como utilizar a comunicação do aplicativo com os sensores por bluetooth
 - prazo restrito haja visto que todos apresentam outras atividades durante o dia
 
+### Possíveis soluções para processo de comunicação com a nuvem e protocolo a ser adotado
+
+[Mosquitto . Um cliente/servidor MQTT](https://cadernodelaboratorio.com.br/2018/12/05/mosquitto-um-cliente-servidor-mqtt/)
+
 ## Providências para 18/10/2019
 
 - [ ] **Todos** - levantar as dificuldades encontradas no projeto até o momento.
