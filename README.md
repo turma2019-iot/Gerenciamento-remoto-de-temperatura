@@ -50,6 +50,8 @@
 
 **09/10/2019**
 
+[ AWS IoT - Serviços de IoT para soluções industriais, comerciais e de consumo ](https://aws.amazon.com/pt/iot/)
+
 [Mosquitto . Um cliente/servidor MQTT](https://cadernodelaboratorio.com.br/2018/12/05/mosquitto-um-cliente-servidor-mqtt/)
 
 [MQTT – Um protocolo para IoT](https://cadernodelaboratorio.com.br/2018/11/30/mqtt-um-protocolo-para-iot/)
