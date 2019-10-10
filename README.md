@@ -45,7 +45,14 @@
 
 ### Possíveis soluções para processo de comunicação com a nuvem e protocolo a ser adotado
 
+**09/10/2019**
+
 [Mosquitto . Um cliente/servidor MQTT](https://cadernodelaboratorio.com.br/2018/12/05/mosquitto-um-cliente-servidor-mqtt/)
+[MQTT – Um protocolo para IoT](https://cadernodelaboratorio.com.br/2018/11/30/mqtt-um-protocolo-para-iot/)
+[Temperature Data record on AWS IoT Core with NodeMCU-ESP32 using Arduino IDE and MQTT Protocol](https://www.youtube.com/watch?v=2y0w977q_yk)
+[ESP32 | FLUTTER | FIREBASE - Temperature & Humidity Check App](https://www.youtube.com/watch?v=nVrACWPXi8g)
+[Connected Home IoT Use Cases](https://aws.amazon.com/pt/iot/solutions/connected-home/)
+
 
 ## Providências para 18/10/2019
 
