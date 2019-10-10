@@ -41,6 +41,7 @@
 		3 - Controle automático da temperatura pelo dispositivo (sistema)
 		4 - Fechamento automático das janelas (sistema)
 		5 - Controle das janelas pelo usuário (usuário)
+		6 - Alteração manual de temperatura
 			
       [ ] modelos UML
 
