@@ -2,7 +2,7 @@
 
 [Projeto Gerenciamento de temperatura](https://github.com/turma2019-iot/Gerenciamento-remoto-de-temperatura/projects/1)
 
-[Blog de Acompanhamento - será substituído por outro site - em construção](https://gerenciamento-remoto-de-temperatura.webnode.com/)
+[Blog de Acompanhamento - será substituído por outro site - em construção](https://gerenciamento-remoto-de-temperatura.webnode.com)
 
 :sparkles: **Cronograma de atividades** :sparkles:
 
@@ -29,80 +29,13 @@
 
 **Pessoal!** :wave: Segue relação de providências imediatas.
 
-## Providências IMEDIATAS para 11/10/2019
-
-- [ ] **Todos** - apresentação das especificações do Projeto 
-
-      [ ] requisitos de sistema
-      [ ] casos de uso
-			
-		1 - Configuração do dispositivo para conexão à internet, usar bluetooth (usuário)
-		2 - Definição de limites de temperatura (usuário)
-		3 - Controle automático da temperatura pelo dispositivo (sistema)
-		4 - Fechamento automático das janelas (sistema)
-		5 - Controle das janelas pelo usuário (usuário)
-		6 - Alteração manual de temperatura (usuário)
-			
-      [ ] modelos UML
-
-
-- [ ] **Rafael** - completar o cronograma e passar para Sérgio para que inserir ao plano de projeto e Esse postar no Moodle. Obs. Deveria ser postado dia 04/10/2019.	  
-- [ ] **Sérgio** - ajustar a apresentação o plano de projeto entregue em 04/10/2019 e postar no Moodle.
-- [ ] **Sérgio** - estruturar o Relatório Técnico
-
-### Dificuldades encontradas
-
-**09/10/2019**
-
-- indefinição dos casos de uso dada a diversidade de fatores envolvidos
-- indefinição do protocolo a ser adotado
-- indefinição processo de comunicação com a nuvem
-- falta de conhecimento de como utilizar a comunicação do aplicativo com os sensores por bluetooth
-- prazo restrito haja visto que todos apresentam outras atividades durante o dia
-- escolha de site para postar o blog que seja mais flexível e com mais recursos de apresentação.
-
-### Possíveis soluções para processo de comunicação com a nuvem e protocolo a ser adotado
-
-**09/10/2019**
-
-[ AWS IoT - Serviços de IoT para soluções industriais, comerciais e de consumo ](https://aws.amazon.com/pt/iot/)
-
-[Mosquitto . Um cliente/servidor MQTT](https://cadernodelaboratorio.com.br/2018/12/05/mosquitto-um-cliente-servidor-mqtt/)
-
-[MQTT – Um protocolo para IoT](https://cadernodelaboratorio.com.br/2018/11/30/mqtt-um-protocolo-para-iot/)
-
-[Temperature Data record on AWS IoT Core with NodeMCU-ESP32 using Arduino IDE and MQTT Protocol](https://www.youtube.com/watch?v=2y0w977q_yk)
-
-[ESP32 | FLUTTER | FIREBASE - Temperature & Humidity Check App](https://www.youtube.com/watch?v=nVrACWPXi8g)
-[Connected Home IoT Use Cases](https://aws.amazon.com/pt/iot/solutions/connected-home/)
-
-[ESP8266 talking to AWS IoT using MQTT](https://www.youtube.com/watch?v=AiCa6E_DBL8)
-
-[Wix.com - Crie um Site Incrível Grátis](https://pt.wix.com/criarsitegratis/pt900?utm_source=bing&utm_campaign=MS_Wix_NEW%5EWix_PR&experiment_id=wix%5Ebp%5E8519664405%5Ewix+login&msclkid=c9063d85d1e51754412c601baf358216&utm_medium=cpc)
-
-[Programar ESP32 com a IDE Arduino – Tutorial Completo](https://www.usinainfo.com.br/blog/programar-esp32-com-a-ide-arduino-tutorial-completo/)
-
-[Tutorial: Intro to Grove Connectors for Arduino/Raspberry Pi Projects](https://www.seeedstudio.com/blog/2016/03/09/tutorial-intro-to-grove-connectors-for-arduinoraspberry-pi-projects/)
-
-[What is the Grove System?](http://wiki.seeedstudio.com/Grove_System/)
-
-[Projeto ESP32 com Display 16×2](https://www.usinainfo.com.br/blog/esp32-projeto-com-display/)
-
-[ESP32 WiFi: Comunicação com a Internet](https://www.usinainfo.com.br/blog/esp32-wifi-comunicacao-com-a-internet/)
-
-[Projeto ESP32 com Display OLED e Sensor AM2302 DHT22 Medindo Temperatura e Umidade](https://www.usinainfo.com.br/blog/projeto-esp32-com-display-oled-e-sensor-am2302-dht22-medindo-temperatura-e-umidade/)
-
-[ESP32 Tutorial com Primeiros Passos](https://www.usinainfo.com.br/blog/esp32-tutorial-com-primeiros-passos/)
-
-[ESP32 Display Oled: Programando o Display do NodeMCU ESP32](https://www.usinainfo.com.br/blog/programando-o-display-do-nodemcu-esp32-oled/)
-
-
-## Providências para 18/10/2019
+## Providências IMEDIATAS para 18/10/2019
 
 - [ ] **Todos** - levantar as dificuldades encontradas no projeto até o momento.
 - [ ] **Todos** - levantamento da base teórica do projeto
-- [ ] **Johnathan** - Reanálise de riscos em função dos riscos apresentados no plano de projeto (04/10/2019). Utilizar modelo disponível [Modelo de análise de riscos-doc](https://github.com/turma2019-iot/Gerenciamento-remoto-de-temperatura/blob/master/Modelo%20de%20an%C3%A1lise%20de%20riscos-doc.docx) 
-- [ ] **Johnathan** - Montar o Perfil da equipe necessária para realizar o projeto - vide pág.1 das [instruçoes do blog](https://github.com/turma2019-iot/Gerenciamento-remoto-de-temperatura/blob/master/Modelo-Estrutura%20do%20Blog%20de%20Acompanhamento.pdf) - e entregar ao Pablo para postar no Blog. 
+- [ ] **Johnatan** - Reanálise de riscos em função dos riscos apresentados no plano de projeto (04/10/2019). Utilizar modelo disponível [Modelo de análise de riscos-doc](https://github.com/turma2019-iot/Gerenciamento-remoto-de-temperatura/blob/master/Modelo%20de%20an%C3%A1lise%20de%20riscos-doc.docx) 
+- [ ] **Johnatan** - Montar o Perfil da equipe necessária para realizar o projeto - vide pág.1 das [instruçoes do blog](https://github.com/turma2019-iot/Gerenciamento-remoto-de-temperatura/blob/master/Modelo-Estrutura%20do%20Blog%20de%20Acompanhamento.pdf) - e entregar ao Pablo para postar no Blog. 
+- [ ] **Johnatan** - Levar maquete
 - [ ] **Marcelo e Sérgio** - Levantamento dos equipamentos e materiais a serem utilizados e suas especificações técnicas.
 - [ ] **Marcelo e Sérgio** - Levantamento de custos.
 - [ ] **Pablo** - postar a base teórica do projeto no blog de acompanhamento.
@@ -110,7 +43,7 @@
 - [ ] **Rafael** - ajustar/complementar as informações do cronogramas das etapas.
 - [ ] **Rafael** - registrar as dificuldades (conforme documento [Dificuldades.doc](https://github.com/turma2019-iot/Gerenciamento-remoto-de-temperatura/blob/master/Dificuldades.docx) encontradas até o momento conforme reunião com a equipe e passar para Pablo postar no blog.
 - [ ] **Rafael** - levantar as atividades futuras que culminaram em 30% dos requisitos a serem entregues e constar no cronograma. Entregar ao Pablo para postar no Blog.
-- [ ] **Sérgio** - redigir o Relatório Técnico 
+- [ ] **Sérgio** - estruturar e redigir o Relatório Técnico 
 
 
 ## Entrega 01 - 18/10/2019
@@ -141,8 +74,75 @@
  
    - informar as atividades futuras do projeto a serem apresentadas na entrega 02.
 
+### Dificuldades encontradas
 
-## Providências realizadas 
+**11/10/2019**
+- reaquadação dos casos de uso e diagramas
+- desenvolver solução de conexão bluetooth para o aplicativo Android a ser utilizado
+- desenvolver solução de conexão webservice, clientservice e cloud MQTT
+
+**09/10/2019**
+
+- indefinição dos casos de uso dada a diversidade de fatores envolvidos
+- indefinição do protocolo a ser adotado
+- indefinição processo de comunicação com a nuvem
+- falta de conhecimento de como utilizar a comunicação do aplicativo com os sensores por bluetooth
+- prazo restrito haja visto que todos apresentam outras atividades durante o dia
+- escolha de site para postar o blog que seja mais flexível e com mais recursos de apresentação.
+
+### Possíveis soluções para processo de comunicação com a nuvem e protocolo a ser adotado
+
+**11/10/2019**
+
+Trabalho do Aroldo - Nível a laser (protocolo MQTT)
+
+**09/10/2019**
+
+[ AWS IoT - Serviços de IoT para soluções industriais, comerciais e de consumo ](https://aws.amazon.com/pt/iot/)
+
+[Mosquitto . Um cliente/servidor MQTT](https://cadernodelaboratorio.com.br/2018/12/05/mosquitto-um-cliente-servidor-mqtt/)
+
+[MQTT – Um protocolo para IoT](https://cadernodelaboratorio.com.br/2018/11/30/mqtt-um-protocolo-para-iot/)
+
+[MQTT-Hosted message broker for the Internet of Things ](https://www.cloudmqtt.com/)
+
+[Temperature Data record on AWS IoT Core with NodeMCU-ESP32 using Arduino IDE and MQTT Protocol](https://www.youtube.com/watch?v=2y0w977q_yk)
+
+[ESP32 | FLUTTER | FIREBASE - Temperature & Humidity Check App](https://www.youtube.com/watch?v=nVrACWPXi8g)
+[Connected Home IoT Use Cases](https://aws.amazon.com/pt/iot/solutions/connected-home/)
+
+[ESP8266 talking to AWS IoT using MQTT](https://www.youtube.com/watch?v=AiCa6E_DBL8)
+
+[Wix.com - Crie um Site Incrível Grátis](https://pt.wix.com/criarsitegratis/pt900?utm_source=bing&utm_campaign=MS_Wix_NEW%5EWix_PR&experiment_id=wix%5Ebp%5E8519664405%5Ewix+login&msclkid=c9063d85d1e51754412c601baf358216&utm_medium=cpc)
+
+[Programar ESP32 com a IDE Arduino – Tutorial Completo](https://www.usinainfo.com.br/blog/programar-esp32-com-a-ide-arduino-tutorial-completo/)
+
+[Tutorial: Intro to Grove Connectors for Arduino/Raspberry Pi Projects](https://www.seeedstudio.com/blog/2016/03/09/tutorial-intro-to-grove-connectors-for-arduinoraspberry-pi-projects/)
+
+[What is the Grove System?](http://wiki.seeedstudio.com/Grove_System/)
+
+[Projeto ESP32 com Display 16×2](https://www.usinainfo.com.br/blog/esp32-projeto-com-display/)
+
+[ESP32 WiFi: Comunicação com a Internet](https://www.usinainfo.com.br/blog/esp32-wifi-comunicacao-com-a-internet/)
+
+[Projeto ESP32 com Display OLED e Sensor AM2302 DHT22 Medindo Temperatura e Umidade](https://www.usinainfo.com.br/blog/projeto-esp32-com-display-oled-e-sensor-am2302-dht22-medindo-temperatura-e-umidade/)
+
+[ESP32 Tutorial com Primeiros Passos](https://www.usinainfo.com.br/blog/esp32-tutorial-com-primeiros-passos/)
+
+[ESP32 Display Oled: Programando o Display do NodeMCU ESP32](https://www.usinainfo.com.br/blog/programando-o-display-do-nodemcu-esp32-oled/)
+
+
+
+
+## Providências realizadas
+
+```
+11/10/2019
+```
+- [x] **Todos** - apresentação das especificações do Projeto (será alterado)
+- [x] **Rafael** - completar o cronograma e passar para Sérgio para que inserir ao plano de projeto e Esse postar no Moodle. Obs. Deveria ser postado dia 04/10/2019.	  
+- [x] **Sérgio** - ajustar a apresentação o plano de projeto entregue em 04/10/2019 e postar no Moodle.
+
 ```
 04/10/2019
 ```
