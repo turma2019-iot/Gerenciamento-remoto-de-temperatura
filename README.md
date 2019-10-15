@@ -184,22 +184,22 @@ Trabalho do Aroldo - Nível a laser (protocolo MQTT)
 
 [Estrutura do Relatório Técnico](https://github.com/turma2019-iot/Gerenciamento-remoto-de-temperatura/blob/master/Estrutura%20do%20Relat%C3%B3rio%20T%C3%A9cnico.pdf)
 
-### Estrutura Base do **NOSSO** relatório técnico
+### Estrutura Base do **nosso** relatório técnico
 ```
-1. Introdução
-    1.1	Requisitos
-2. Tecnologias
-    2.1 ESP32
-    2.2	DHT11
-    2.3	Bluetooth
-    2.4	Wi-fi
-    2.5	MQTT
-    2.6	Firebase
-    2.7	AWS
-3. Desenvolvimento
-4. Testes
-5. Dificuldades
-6. Conclusão
+	1. Introdução
+	    1.1	Requisitos
+	2. Tecnologias
+	    2.1 ESP32
+	    2.2	DHT11
+	    2.3	Bluetooth
+	    2.4	Wi-fi
+	    2.5	MQTT
+	    2.6	Firebase
+	    2.7	AWS
+	3. Desenvolvimento
+	4. Testes
+	5. Dificuldades
+	6. Conclusão
 ```
 ### Exemplo de Relatório Técnicos
 
