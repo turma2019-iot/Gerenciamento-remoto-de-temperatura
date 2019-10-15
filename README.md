@@ -36,8 +36,8 @@
 - [ ] **Marcelo** - Levantamento dos equipamentos, custos, materiais a serem utilizados e suas especificações técnicas.
 - [ ] **Marcelo** - realizar a leitura de temperatura utilizando o ESP32 e o DHT11 para ser apresentado no dia 18/10/2019.
                     Importante fazer um vídeo para incluirmos no blog de acompanhamento.
-- [ ] **Marcelo** - pesquisar a abertura e fechamento de janelas, bem como, acionamento de ventiladores utilizando relés.
-                    Ainda, coletar base teórica para postar no blog e incluir no relatório técnico.
+- [ ] **Marcelo** - pesquisar e testar a abertura e fechamento de janelas, bem como, acionamento de ventiladores utilizando relés.
+                    Ainda, coletar base teórica e especificações técnicas para postar no blog e incluir no relatório técnico.
 - [ ] **Pablo** - análise de riscos em função dos riscos apresentados no plano de projeto (04/10/2019). Utilizar modelo disponível [Modelo de análise de riscos-doc](https://github.com/turma2019-iot/Gerenciamento-remoto-de-temperatura/blob/master/Modelo%20de%20an%C3%A1lise%20de%20riscos-doc.docx) 
 - [ ] **Pablo** - Montar o Perfil da equipe necessária para realizar o projeto - vide pág.1 das [instruçoes do blog](https://github.com/turma2019-iot/Gerenciamento-remoto-de-temperatura/blob/master/Modelo-Estrutura%20do%20Blog%20de%20Acompanhamento.pdf) - e entregar ao Pablo para postar no Blog.
 - [ ] **Pablo** - base teórica sobre Firebase e AWS.
