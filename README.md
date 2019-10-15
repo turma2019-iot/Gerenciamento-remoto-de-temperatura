@@ -4,6 +4,8 @@
 
 [Blog de Acompanhamento - será substituído por outro site - em construção](https://gerenciamento-remoto-de-temperatura.webnode.com) :microphone: :loudspeaker:
 
+[Estrutura Base do NOSSO relatório técnico](https://github.com/turma2019-iot/Gerenciamento-remoto-de-temperatura/blob/master/ESTRUTURA%20BASE%20do%20nosso%20Relat%C3%B3rio%20t%C3%A9cnico%20-%20Gerenciamento%20Remoto%20de%20Temperatura.docx)
+
 :sparkles: **Cronograma de atividades** :sparkles:
 
 [Cronograma do Projeto - Gerenciamento Remoto de Temperatura](https://docs.google.com/spreadsheets/d/1Pu73FoE6jFfJ5qRj0j9g9AZ2rGhJDiFGWlH0jN2NiLo/edit#gid=0)
@@ -181,6 +183,24 @@ Trabalho do Aroldo - Nível a laser (protocolo MQTT)
 ## Relatório técnico
 
 [Estrutura do Relatório Técnico](https://github.com/turma2019-iot/Gerenciamento-remoto-de-temperatura/blob/master/Estrutura%20do%20Relat%C3%B3rio%20T%C3%A9cnico.pdf)
+
+### Estrutura Base do **NOSSO** relatório técnico
+```
+1. Introdução
+    1.1	Requisitos
+2. Tecnologias
+    2.1 ESP32
+    2.2	DHT11
+    2.3	Bluetooth
+    2.4	Wi-fi
+    2.5	MQTT
+    2.6	Firebase
+    2.7	AWS
+3. Desenvolvimento
+4. Testes
+5. Dificuldades
+6. Conclusão
+```
 ### Exemplo de Relatório Técnicos
 
 [Relatório Técnico - BitBox-uma Cripto-Vending Machine operada via celular](https://github.com/turma2019-iot/Gerenciamento-remoto-de-temperatura/blob/master/Relat%C3%B3rio%20T%C3%A9cnico%20-%20BitBox-uma%20Cripto-Vending%20Machine%20operada%20via%20celular.pdf)
