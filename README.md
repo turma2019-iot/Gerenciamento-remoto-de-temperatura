@@ -86,7 +86,10 @@
 ### Dificuldades encontradas
 
 **16/10/2019**
-
+- informar aos ESP32 da casa a rede e senha para permitir o acesso a internet.
+- gravar na memoria flash dos ESP32, a rede e senha de acesso a internet.
+- como realizar a conexão com o firebase - ESP32 e este acessar as temperaturas mínimas e máximas.
+- definir as telas do aplicativo Android e qual software de projeto a ser utilizado.
 
 **11/10/2019**
 - reaquadação dos casos de uso e diagramas
