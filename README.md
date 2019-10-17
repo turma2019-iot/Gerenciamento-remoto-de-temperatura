@@ -27,31 +27,26 @@
 - [ ] Repositório público contendo o sofware e demais artefatos produzidos durante a execução do projeto (deve ser atualizado frequentenente para evidenciar o andamento das atividades de implementação)
 - [ ] Relatório técnico (final)
 
-
-
 **Pessoal!** :wave: Segue relação de providências imediatas.
 
 ## Providências IMEDIATAS para 18/10/2019
 - [ ] **Todos** - levantar as atividades futuras que culminaram em 30% dos requisitos a serem entregues e constar no cronograma. Entregar ao Pablo para postar no Blog.
 - [ ] **Todos** - levantar as dificuldades encontradas no projeto até o momento.
-- [ ] **Johnatan** - Levar maquete
 - [ ] **Marcelo** - Levantamento dos equipamentos, custos, materiais a serem utilizados e suas especificações técnicas.
-- [ ] **Marcelo** - realizar a leitura de temperatura utilizando o ESP32 e o DHT11 para ser apresentado no dia 18/10/2019.
+- [x] **Marcelo** - realizar a leitura de temperatura utilizando o ESP32 e o DHT11 para ser apresentado no dia 18/10/2019.
                     Importante fazer um vídeo para incluirmos no blog de acompanhamento.
 - [ ] **Marcelo** - pesquisar e testar a abertura e fechamento de janelas, bem como, acionamento de ventiladores utilizando relés.
                     Ainda, coletar base teórica e especificações técnicas para postar no blog e incluir no relatório técnico.
 - [ ] **Pablo** - análise de riscos em função dos riscos apresentados no plano de projeto (04/10/2019). Utilizar modelo disponível [Modelo de análise de riscos-doc](https://github.com/turma2019-iot/Gerenciamento-remoto-de-temperatura/blob/master/Modelo%20de%20an%C3%A1lise%20de%20riscos-doc.docx) 
-- [ ] **Pablo** - Montar o Perfil da equipe necessária para realizar o projeto - vide pág.1 das [instruçoes do blog](https://github.com/turma2019-iot/Gerenciamento-remoto-de-temperatura/blob/master/Modelo-Estrutura%20do%20Blog%20de%20Acompanhamento.pdf) - e entregar ao Pablo para postar no Blog.
 - [ ] **Pablo** - base teórica sobre Firebase e AWS.
 - [ ] **Pablo** - postar a base teórica do projeto no blog de acompanhamento.
 - [ ] **Pablo** - ajustar Blog conforme apresentado no plano de projeto
 - [ ] **Rafael e Johnatan** - testar a utilização do firebase para disponibilizar aos ESP32 as temperaturas mínima e máxima.
-- [ ] **Rafael e Johnatan** - montar o caso de uso RF002 - Definir limites de temperatura para incluir
-      no documento requisitos do sistema
+- [x] **Rafael** - montar o caso de uso RF002 - Definir limites de temperatura para incluir no documento requisitos do sistema
 - [ ] **Sérgio** - ajustar/complementar as informações do cronogramas das etapas.
-- [ ] **Sérgio** - registrar as dificuldades (conforme documento [Dificuldades.doc](https://github.com/turma2019-iot/Gerenciamento-remoto-de-temperatura/blob/master/Dificuldades.docx) encontradas até o momento conforme reunião com a equipe e passar para Pablo postar no blog.
+- [x] **Sérgio** - registrar as dificuldades (conforme documento [Dificuldades.doc](https://github.com/turma2019-iot/Gerenciamento-remoto-de-temperatura/blob/master/Dificuldades.docx) encontradas até o momento conforme reunião com a equipe e passar para Pablo postar no blog.
 - [ ] **Sérgio** - base teórica sobre ESP32, DHT11, Bluetooth, Wi-fi, MQTT
-- [ ] **Sérgio** - estruturar e redigir o Relatório Técnico
+- [x] **Sérgio** - estruturar e redigir o Relatório Técnico
 - [ ] **Sérgio** - terminar os diagramas de casos de uso
 
 
@@ -83,7 +78,15 @@
  
    - informar as atividades futuras do projeto a serem apresentadas na entrega 02.
 
+## Entrega 02 - 25/10/2019
+
+- [ ] **Johnatan** - Levar maquete
+- [ ] **Pablo** - Montar o Perfil da equipe necessária para realizar o projeto - vide pág.1 das [instruçoes do blog](https://github.com/turma2019-iot/Gerenciamento-remoto-de-temperatura/blob/master/Modelo-Estrutura%20do%20Blog%20de%20Acompanhamento.pdf) - e entregar ao Pablo para postar no Blog.
+
 ### Dificuldades encontradas
+
+**16/10/2019**
+
 
 **11/10/2019**
 - reaquadação dos casos de uso e diagramas
