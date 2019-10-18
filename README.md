@@ -4,8 +4,6 @@
 
 [Blog de Acompanhamento - será substituído por outro site - em construção](https://gerenciamento-remoto-de-temperatura.webnode.com) :microphone: :loudspeaker:
 
-[Estrutura Base do NOSSO relatório técnico](https://github.com/turma2019-iot/Gerenciamento-remoto-de-temperatura/blob/master/ESTRUTURA%20BASE%20do%20nosso%20Relat%C3%B3rio%20t%C3%A9cnico%20-%20Gerenciamento%20Remoto%20de%20Temperatura.docx)
-
 
 ![Cronograma do Projeto - Gerenciamento Remoto de Temperatura](https://github.com/turma2019-iot/Gerenciamento-remoto-de-temperatura/blob/master/cronograma%20projeto%20-%20rev%2001%20-%202019-10-18.PNG)
 
@@ -17,7 +15,7 @@
 
 - [x] **27/09/2019** - Apresentação da disciplina
 - [x] **04/10/2019** - Acompanhamento dos projetos: Apresentação das **Propostas de Projeto** (Plano do Projeto)
-- [ ] **11/10/2019** - Acompanhamento dos projetos: Apresentação das **Especificações do Projeto** (Requisitos de Sistema, Casos de Uso, Modelos UML)
+- [x] **11/10/2019** - Acompanhamento dos projetos: Apresentação das **Especificações do Projeto** (Requisitos de Sistema, Casos de Uso)
 - [ ] **18/10/2019** - Acompanhamento dos projetos: Apresentação do **Entregável 01** (implementação parcial, 30% dos requisitos)
 - [ ] **25/10/2019** - Acompanhamento dos projeto: Apresentação do **Entregável 02** (implementação parcial, 60% dos requisitos)
 - [ ] **01/11/2019** - Acompanhamento dos projetos: Apresentação Final do Projeto (implementação final, 100% dos requisitos)
@@ -26,7 +24,7 @@
 :sparkles: **Resumo de entregáveis** :sparkles:
 
 - [x] Plano do Projeto
-- [ ] Especificação do Projeto
+- [x] Especificação do Projeto
 - [ ] Blog público de acompanhamento da execução do projeto
 - [ ] Repositório público contendo o sofware e demais artefatos produzidos durante a execução do projeto (deve ser atualizado frequentenente para evidenciar o andamento das atividades de implementação)
 - [ ] Relatório técnico (final)
@@ -45,13 +43,12 @@
 - [ ] **Pablo** - base teórica sobre Firebase e AWS.
 - [ ] **Pablo** - postar a base teórica do projeto no blog de acompanhamento.
 - [ ] **Pablo** - ajustar Blog conforme apresentado no plano de projeto
-- [ ] **Rafael e Johnatan** - testar a utilização do firebase para disponibilizar aos ESP32 as temperaturas mínima e máxima.
+- [x] **Rafael e Johnatan** - testar a utilização do firebase para disponibilizar aos ESP32 as temperaturas mínima e máxima.
 - [x] **Rafael** - montar o caso de uso RF002 - Definir limites de temperatura para incluir no documento requisitos do sistema
 - [x] **Sérgio** - ajustar/complementar as informações do cronogramas das etapas.
 - [x] **Sérgio** - registrar as dificuldades (conforme documento [Dificuldades.doc](https://github.com/turma2019-iot/Gerenciamento-remoto-de-temperatura/blob/master/Dificuldades.docx) encontradas até o momento conforme reunião com a equipe e passar para Pablo postar no blog.
 - [ ] **Sérgio** - base teórica sobre ESP32, DHT11, Bluetooth, Wi-fi, MQTT
 - [x] **Sérgio** - estruturar e redigir o Relatório Técnico
-- [ ] **Sérgio** - terminar os diagramas de casos de uso
 
 
 ## Entrega 01 - 18/10/2019
@@ -198,6 +195,9 @@ Trabalho do Aroldo - Nível a laser (protocolo MQTT)
 [Estrutura do Relatório Técnico](https://github.com/turma2019-iot/Gerenciamento-remoto-de-temperatura/blob/master/Estrutura%20do%20Relat%C3%B3rio%20T%C3%A9cnico.pdf)
 
 ### Estrutura Base do **nosso** relatório técnico
+
+[Estrutura Base do NOSSO relatório técnico](https://github.com/turma2019-iot/Gerenciamento-remoto-de-temperatura/blob/master/ESTRUTURA%20BASE%20do%20nosso%20Relat%C3%B3rio%20t%C3%A9cnico%20-%20Gerenciamento%20Remoto%20de%20Temperatura.docx)
+
 ```
 	1. Introdução
 	    1.1	Requisitos
