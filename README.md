@@ -33,7 +33,7 @@
 - [x] **Todos** - levantar as dificuldades encontradas no projeto até o momento.
 - [ ] **Marcelo** - Levantamento dos equipamentos, custos, materiais a serem utilizados e suas especificações técnicas.
 - [x] **Marcelo** - realizar a leitura de temperatura utilizando o ESP32 e o DHT11 para ser apresentado no dia 18/10/2019.
-- [ ] **Marcelo** - Importante! Fazer um vídeo para incluirmos no blog de acompanhamento.
+                    Importante fazer um vídeo para incluirmos no blog de acompanhamento.
 - [ ] **Marcelo** - pesquisar e testar a abertura e fechamento de janelas, bem como, acionamento de ventiladores.
                     Ainda, coletar base teórica e especificações técnicas para postar no blog e incluir no relatório técnico.
 - [ ] **Pablo** - análise de riscos em função dos riscos apresentados no plano de projeto (04/10/2019). Utilizar modelo disponível [Modelo de análise de riscos-doc](https://github.com/turma2019-iot/Gerenciamento-remoto-de-temperatura/blob/master/Modelo%20de%20an%C3%A1lise%20de%20riscos-doc.docx) 
@@ -47,17 +47,30 @@
 - [x] **Sérgio** - base teórica sobre ESP32, DHT11, Bluetooth, Wi-fi
 - [x] **Sérgio** - estruturar e redigir o Relatório Técnico
 
+
 ## Entrega 01 - 18/10/2019
  
 - Bases teóricas (obrigatório) 
 
    - constar fonte de referência bibliográfica que informe como será realizado a leitura de temperatura de um ambiente residencial.
+   
+   resp.: consta no relatório técnico (prévia) do projeto.
+   
    - quais equipamentos serão utilizados para realização destas leituras, qual a especificação técnica dos materiais e equipamentos?
-   - qual a diferenciação de um material/equipamento de um em relação ao outro?
-   - quais são os custos e diferença de preços de um para o outro?
+   
+   resp.:  serão utilizados sensores de temperatura do tipo DHT11. Maiores detalhes constam no relatório técnico (prévia).
+   
    - como se realizará o processo de comunicação entre os vários equipamentos? Qual o pré-requisito necessário para que ocorra tal comunicação?
-   - qual o protocolo será adotado?
+   
+   resp: será realizado via microcontroladores ESP32 via wi-fi pela Internet.
+   
+   - qual o protocolo será adotado? 
+   
+   resp: Protocolo MQTT.
+   
    - o que é necessário para que o projeto se concretize levando-se em consideração os aspectos técnicos, operacionais e financeiros?
+   
+   resp: seja financeiramente viável e que o sistema seja intuito e de fácil utilização e permita acessar a internet.
 
 - Re-avaliação de riscos (obrigatório) 
    
@@ -65,17 +78,17 @@
 
 - Acompanhamento do cronograma (obrigatório) 
 
-   - atualizar o cronograma de atividades do projeto.
+   resp: veja a versão atualizada (18/10/2019) no texto acima.
    
 - Dificuldades (obrigatório) 
   
-   - apontar as dificuldades encontradas no projeto - entrega 01.
+   resp: veja item Dificuldades encontradas
    
 - Atividades futuras (obrigatório) 
  
-   - informar as atividades futuras do projeto a serem apresentadas na entrega 02.
-
-## Entrega 02 - 25/10/2019
+   - A DEFINIR.
+   
+ ## Entrega 02 - 25/10/2019
 
 - [ ] **Johnatan** - Levar maquete
 - [ ] **Pablo** - Montar o Perfil da equipe necessária para realizar o projeto - vide pág.1 das [instruçoes do blog](https://github.com/turma2019-iot/Gerenciamento-remoto-de-temperatura/blob/master/Modelo-Estrutura%20do%20Blog%20de%20Acompanhamento.pdf) - e entregar ao Pablo para postar no Blog.
