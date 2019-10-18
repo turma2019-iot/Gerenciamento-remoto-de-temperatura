@@ -189,6 +189,8 @@ Trabalho do Aroldo - Nível a laser (protocolo MQTT)
 
 [Estrutura do Relatório Técnico](https://github.com/turma2019-iot/Gerenciamento-remoto-de-temperatura/blob/master/Estrutura%20do%20Relat%C3%B3rio%20T%C3%A9cnico.pdf)
 
+[Relatório Técnico - versão 01 - incompleta](https://github.com/turma2019-iot/Gerenciamento-remoto-de-temperatura/blob/master/Relat%C3%B3rio%20t%C3%A9cnico%20-%20Gerenciamento%20Remoto%20de%20Temperatura%20-%20rev%2001.docx)
+
 ### Estrutura Base do **nosso** relatório técnico
 
 [Estrutura Base adotada](https://github.com/turma2019-iot/Gerenciamento-remoto-de-temperatura/blob/master/ESTRUTURA%20BASE%20do%20nosso%20Relat%C3%B3rio%20t%C3%A9cnico%20-%20Gerenciamento%20Remoto%20de%20Temperatura.docx)
