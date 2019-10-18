@@ -34,7 +34,7 @@
 - [ ] **Marcelo** - Levantamento dos equipamentos, custos, materiais a serem utilizados e suas especificações técnicas.
 - [x] **Marcelo** - realizar a leitura de temperatura utilizando o ESP32 e o DHT11 para ser apresentado no dia 18/10/2019.
                     Importante fazer um vídeo para incluirmos no blog de acompanhamento.
-- [ ] **Marcelo** - pesquisar e testar a abertura e fechamento de janelas, bem como, acionamento de ventiladores utilizando relés.
+- [ ] **Marcelo** - pesquisar e testar a abertura e fechamento de janelas, bem como, acionamento de ventiladores.
                     Ainda, coletar base teórica e especificações técnicas para postar no blog e incluir no relatório técnico.
 - [ ] **Pablo** - análise de riscos em função dos riscos apresentados no plano de projeto (04/10/2019). Utilizar modelo disponível [Modelo de análise de riscos-doc](https://github.com/turma2019-iot/Gerenciamento-remoto-de-temperatura/blob/master/Modelo%20de%20an%C3%A1lise%20de%20riscos-doc.docx) 
 - [ ] **Pablo** - base teórica sobre Firebase e AWS.
@@ -44,7 +44,7 @@
 - [x] **Rafael** - montar o caso de uso RF002 - Definir limites de temperatura para incluir no documento requisitos do sistema
 - [x] **Sérgio** - ajustar/complementar as informações do cronogramas das etapas.
 - [x] **Sérgio** - registrar as dificuldades (conforme documento [Dificuldades.doc](https://github.com/turma2019-iot/Gerenciamento-remoto-de-temperatura/blob/master/Dificuldades.docx) encontradas até o momento conforme reunião com a equipe e passar para Pablo postar no blog.
-- [ ] **Sérgio** - base teórica sobre ESP32, DHT11, Bluetooth, Wi-fi, MQTT
+- [x] **Sérgio** - base teórica sobre ESP32, DHT11, Bluetooth, Wi-fi
 - [x] **Sérgio** - estruturar e redigir o Relatório Técnico
 
 
