@@ -6,9 +6,13 @@
 
 [Estrutura Base do NOSSO relatório técnico](https://github.com/turma2019-iot/Gerenciamento-remoto-de-temperatura/blob/master/ESTRUTURA%20BASE%20do%20nosso%20Relat%C3%B3rio%20t%C3%A9cnico%20-%20Gerenciamento%20Remoto%20de%20Temperatura.docx)
 
+
+![Cronograma do Projeto - Gerenciamento Remoto de Temperatura](https://github.com/turma2019-iot/Gerenciamento-remoto-de-temperatura/blob/master/cronograma%20projeto%20-%20rev%2001%20-%202019-10-18.PNG)
+
+
 :sparkles: **Cronograma de atividades** :sparkles:
 
-[Cronograma do Projeto - Gerenciamento Remoto de Temperatura](https://docs.google.com/spreadsheets/d/1Pu73FoE6jFfJ5qRj0j9g9AZ2rGhJDiFGWlH0jN2NiLo/edit#gid=0)
+
 
 
 - [x] **27/09/2019** - Apresentação da disciplina
