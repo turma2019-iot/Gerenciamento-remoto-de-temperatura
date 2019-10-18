@@ -30,8 +30,8 @@
 **Pessoal!** :wave: Segue relação de providências imediatas.
 
 ## Providências IMEDIATAS para 18/10/2019
-- [ ] **Todos** - levantar as atividades futuras que culminaram em 30% dos requisitos a serem entregues e constar no cronograma. Entregar ao Pablo para postar no Blog.
-- [ ] **Todos** - levantar as dificuldades encontradas no projeto até o momento.
+- [x] **Todos** - levantar as atividades futuras que culminaram em 30% dos requisitos a serem entregues e constar no cronograma. Entregar ao Pablo para postar no Blog.
+- [x] **Todos** - levantar as dificuldades encontradas no projeto até o momento.
 - [ ] **Marcelo** - Levantamento dos equipamentos, custos, materiais a serem utilizados e suas especificações técnicas.
 - [x] **Marcelo** - realizar a leitura de temperatura utilizando o ESP32 e o DHT11 para ser apresentado no dia 18/10/2019.
                     Importante fazer um vídeo para incluirmos no blog de acompanhamento.
@@ -43,7 +43,7 @@
 - [ ] **Pablo** - ajustar Blog conforme apresentado no plano de projeto
 - [ ] **Rafael e Johnatan** - testar a utilização do firebase para disponibilizar aos ESP32 as temperaturas mínima e máxima.
 - [x] **Rafael** - montar o caso de uso RF002 - Definir limites de temperatura para incluir no documento requisitos do sistema
-- [ ] **Sérgio** - ajustar/complementar as informações do cronogramas das etapas.
+- [x] **Sérgio** - ajustar/complementar as informações do cronogramas das etapas.
 - [x] **Sérgio** - registrar as dificuldades (conforme documento [Dificuldades.doc](https://github.com/turma2019-iot/Gerenciamento-remoto-de-temperatura/blob/master/Dificuldades.docx) encontradas até o momento conforme reunião com a equipe e passar para Pablo postar no blog.
 - [ ] **Sérgio** - base teórica sobre ESP32, DHT11, Bluetooth, Wi-fi, MQTT
 - [x] **Sérgio** - estruturar e redigir o Relatório Técnico
@@ -85,9 +85,12 @@
 
 ### Dificuldades encontradas
 
+**18/10/2019**
+- diminuir o consumo de memória para gravação do código no EPROM/FLASH do ESP32
+
 **16/10/2019**
 - informar aos ESP32 da casa a rede e senha para permitir o acesso a internet.
-- gravar na memoria flash dos ESP32, a rede e senha de acesso a internet.
+- gravar na memória flash dos ESP32, a rede e senha de acesso a internet.
 - como realizar a conexão com o firebase - ESP32 e este acessar as temperaturas mínimas e máximas.
 - definir as telas do aplicativo Android e qual software de projeto a ser utilizado.
 
