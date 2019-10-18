@@ -4,14 +4,11 @@
 
 [Blog de Acompanhamento - será substituído por outro site - em construção](https://gerenciamento-remoto-de-temperatura.webnode.com) :microphone: :loudspeaker:
 
+# Cronograma do Projeto - data de atualização: 18/10/2019
 
 ![Cronograma do Projeto - Gerenciamento Remoto de Temperatura](https://github.com/turma2019-iot/Gerenciamento-remoto-de-temperatura/blob/master/cronograma%20projeto%20-%20rev%2001%20-%202019-10-18.PNG)
 
-
 :sparkles: **Cronograma de atividades** :sparkles:
-
-
-
 
 - [x] **27/09/2019** - Apresentação da disciplina
 - [x] **04/10/2019** - Acompanhamento dos projetos: Apresentação das **Propostas de Projeto** (Plano do Projeto)
@@ -151,8 +148,6 @@ Trabalho do Aroldo - Nível a laser (protocolo MQTT)
 [ESP32 Display Oled: Programando o Display do NodeMCU ESP32](https://www.usinainfo.com.br/blog/programando-o-display-do-nodemcu-esp32-oled/)
 
 
-
-
 ## Providências realizadas
 
 ```
@@ -196,7 +191,7 @@ Trabalho do Aroldo - Nível a laser (protocolo MQTT)
 
 ### Estrutura Base do **nosso** relatório técnico
 
-[Estrutura Base do NOSSO relatório técnico](https://github.com/turma2019-iot/Gerenciamento-remoto-de-temperatura/blob/master/ESTRUTURA%20BASE%20do%20nosso%20Relat%C3%B3rio%20t%C3%A9cnico%20-%20Gerenciamento%20Remoto%20de%20Temperatura.docx)
+[Estrutura Base adotada](https://github.com/turma2019-iot/Gerenciamento-remoto-de-temperatura/blob/master/ESTRUTURA%20BASE%20do%20nosso%20Relat%C3%B3rio%20t%C3%A9cnico%20-%20Gerenciamento%20Remoto%20de%20Temperatura.docx)
 
 ```
 	1. Introdução
