@@ -64,11 +64,7 @@
    
    resp: será realizado via microcontroladores ESP32 via wi-fi pela Internet.
    
-   - qual o protocolo será adotado? 
-   
-   resp: Protocolo MQTT.
-   
-   - o que é necessário para que o projeto se concretize levando-se em consideração os aspectos técnicos, operacionais e financeiros?
+  - o que é necessário para que o projeto se concretize levando-se em consideração os aspectos técnicos, operacionais e financeiros?
    
    resp: seja financeiramente viável e que o sistema seja intuito e de fácil utilização e permita acessar a internet.
 
@@ -119,6 +115,9 @@
 - escolha de site para postar o blog que seja mais flexível e com mais recursos de apresentação.
 
 ### Possíveis soluções para processo de comunicação com a nuvem e protocolo a ser adotado
+**18/10/2019**
+
+Adoção do firebase.
 
 **11/10/2019**
 
@@ -207,22 +206,6 @@ Trabalho do Aroldo - Nível a laser (protocolo MQTT)
 
 [Estrutura Base adotada](https://github.com/turma2019-iot/Gerenciamento-remoto-de-temperatura/blob/master/ESTRUTURA%20BASE%20do%20nosso%20Relat%C3%B3rio%20t%C3%A9cnico%20-%20Gerenciamento%20Remoto%20de%20Temperatura.docx)
 
-```
-	1. Introdução
-	    1.1	Requisitos
-	2. Tecnologias
-	    2.1 ESP32
-	    2.2	DHT11
-	    2.3	Bluetooth
-	    2.4	Wi-fi
-	    2.5	MQTT
-	    2.6	Firebase
-	    2.7	AWS
-	3. Desenvolvimento
-	4. Testes
-	5. Dificuldades
-	6. Conclusão
-```
 ### Exemplo de Relatório Técnicos
 
 [Relatório Técnico - BitBox-uma Cripto-Vending Machine operada via celular](https://github.com/turma2019-iot/Gerenciamento-remoto-de-temperatura/blob/master/Relat%C3%B3rio%20T%C3%A9cnico%20-%20BitBox-uma%20Cripto-Vending%20Machine%20operada%20via%20celular.pdf)
