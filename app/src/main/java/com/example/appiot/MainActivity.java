@@ -39,6 +39,7 @@ public class MainActivity extends AppCompatActivity {
 
                 status = dataSnapshot.child("ventiladorLigado").getValue().toString();
                 ar.setText(status);
+                //
 
             }
 
