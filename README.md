@@ -7,7 +7,7 @@
 
 ![Cronograma do Projeto - Gerenciamento Remoto de Temperatura](https://github.com/turma2019-iot/Gerenciamento-remoto-de-temperatura/blob/master/cronograma/Cronograma%20Execu%C3%A7%C3%A3o%20do%20Projeto%20-%20vers%C3%A3o%20final%20-%202019-11-10.PNG)
 
-:sparkles: **Resumo de entregáveis** :sparkles:
+:sparkles: ##Resumo de entregáveis :sparkles:
 
 
 ### Entrega 01
