@@ -5,7 +5,7 @@
 
 ## Cronograma do Projeto - data de atualização: 10/11/2019
 
-![Cronograma do Projeto - Gerenciamento Remoto de Temperatura](https://github.com/turma2019-iot/Gerenciamento-remoto-de-temperatura/blob/master/cronograma/cronograma%20projeto%20-%20rev%2001%20-%202019-10-18.PNG)
+![Cronograma do Projeto - Gerenciamento Remoto de Temperatura](https://github.com/turma2019-iot/Gerenciamento-remoto-de-temperatura/blob/master/cronograma/Cronograma%20Execu%C3%A7%C3%A3o%20do%20Projeto%20-%20vers%C3%A3o%20final%20-%202019-11-10.PNG)
 
 :sparkles: **Resumo de entregáveis** :sparkles:
 
