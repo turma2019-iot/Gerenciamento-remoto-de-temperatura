@@ -2,30 +2,21 @@
 
 [Projeto Gerenciamento de temperatura](console.firebase.google.com/)  :microphone: :loudspeaker:
 
-
 ## Cronograma do Projeto - data de atualização: 10/11/2019
 
 ![Cronograma do Projeto - Gerenciamento Remoto de Temperatura](https://github.com/turma2019-iot/Gerenciamento-remoto-de-temperatura/blob/master/cronograma/Cronograma%20Execu%C3%A7%C3%A3o%20do%20Projeto%20-%20vers%C3%A3o%20final%20-%202019-11-10.PNG)
 
 :sparkles: **RESUMO DE ENTREGÁVEIS** :sparkles:
 
-
-### Entrega 01
- 
-- [x] Plano do Projeto
+[Plano do Projeto](https://github.com/turma2019-iot/Gerenciamento-remoto-de-temperatura/blob/master/plano%20de%20projeto/Plano%20do%20projeto%20gerenciamento%20de%20temperatura%20-rev4.6.pdf)
    
-### Entrega 02
+[Especificação do Projeto](https://github.com/turma2019-iot/Gerenciamento-remoto-de-temperatura/blob/master/requisitos%20do%20sistema/documento%20de%20requisitos%20do%20sistema-rev4.6-final.pdf)
 
-- [x] Especificação do Projeto
-
-### Entrega 03
-
-- [x] Relatório técnico
+[Relatório Técnico](https://github.com/turma2019-iot/Gerenciamento-remoto-de-temperatura/blob/master/relat%C3%B3rio/Relat%C3%B3rio%20t%C3%A9cnico%20-%20Gerenciamento%20Remoto%20de%20Temperatura%20-%20rev%203.0.pdf)
 
 ## Dificuldades encontradas
 
-As dificuldades encontradas durante o desenvolvimento do projeto
-
+As dificuldades encontradas durante o desenvolvimento do projeto foram:
 
 - escolha de site para postar o blog que seja mais flexível e com mais recursos de apresentação.
 - prazo restrito haja visto que todos apresentam outras atividades durante o dia.
@@ -50,8 +41,3 @@ As dificuldades encontradas durante o desenvolvimento do projeto
 - dificuldade de implementação dos relês controladores de acionamento da ventiladores e aquecedores.
 - dificuldade de leitura do sensor de chuva e o seu correto acionamento do servo motor responsável pela abertura e fechamento da janela.
 - dificuldade na integração de todos os sistemas desenvolvidos em um único sistema.
-
-## Relatório técnico
-
-[Relatório Técnico](https://github.com/turma2019-iot/Gerenciamento-remoto-de-temperatura/blob/master/relat%C3%B3rio/Relat%C3%B3rio%20t%C3%A9cnico%20-%20Gerenciamento%20Remoto%20de%20Temperatura%20-%20rev%203.0.pdf)
-
