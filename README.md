@@ -1,6 +1,20 @@
-# Gerenciamento remoto de Temperatura
+# Gerenciamento remoto de Temperatura em um ambiente residencial
 
-[Projeto Gerenciamento de temperatura](https://gerenciamento-remoto-de-temperatura.webnode.com/)  :microphone: :loudspeaker:
+[Blog do Projeto Gerenciamento de temperatura](https://gerenciamento-remoto-de-temperatura.webnode.com/)  :microphone: :loudspeaker:
+
+## Introdução
+
+O presente projeto trata-se de desenvolver um projeto em IoT que visa o gerenciamento remoto de temperatura.
+Deverá ser desenvolvido no prazo de 3 semanas. 
+Deverá ser feito em EQUIPE sendo o grupo constituído no máximo de 5 pessoas.
+
+## Objetivo
+
+Desenvolver aplicativo Android que realize o gerenciamento remoto de temperatura por meio de sensores em ambiente residencial. Deverá permitir, além da captura dos dados transmitidos pelo sensores via internet, a atuação por meio de dispositivos e envio de informações ao cliente .
+
+## Meta
+
+Apresentar um produto de baixo custo dentro do prazo e que atenda os anseios do cliente.
 
 ## Cronograma do Projeto - data de atualização: 10/11/2019
 
@@ -41,3 +55,7 @@ As dificuldades encontradas durante o desenvolvimento do projeto foram:
 - dificuldade de implementação dos relês controladores de acionamento da ventiladores e aquecedores.
 - dificuldade de leitura do sensor de chuva e o seu correto acionamento do servo motor responsável pela abertura e fechamento da janela.
 - dificuldade na integração de todos os sistemas desenvolvidos em um único sistema.
+
+## Conclusão
+
+Conseguimos apresentar um projeto de IoT que realiza um sistema de gerenciamento remoto de temperatura em um ambiente residencial. 
