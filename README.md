@@ -4,13 +4,12 @@
 
 ## Introdução
 
-O presente projeto trata-se de desenvolver um projeto em IoT que visa o gerenciamento remoto de temperatura.
-Deverá ser desenvolvido no prazo de 3 semanas. 
-Deverá ser feito em EQUIPE sendo o grupo constituído no máximo de 5 pessoas.
+O presente projeto consiste em desenvolver um projeto em IoT que vise o gerenciamento remoto de temperatura.
+Deverá ser desenvolvido no prazo de 3 semanas por equipe constituída de no máximo de 5 pessoas.
 
 ## Objetivo
 
-Desenvolver aplicativo Android que realize o gerenciamento remoto de temperatura por meio de sensores em ambiente residencial. Deverá permitir, além da captura dos dados transmitidos pelo sensores via internet, a atuação por meio de dispositivos e envio de informações ao cliente .
+Desenvolver aplicativo Android que realize o gerenciamento remoto de temperatura por meio de sensores em ambiente residencial. Deverá permitir, além da captura dos dados transmitidos pelo sensores via internet, a atuação por meio de dispositivos, bem como, o envio de informações ao usuário (ex.: janela aberta/fechada, local, ventilador ligado/desligado e etc)
 
 ## Meta
 
