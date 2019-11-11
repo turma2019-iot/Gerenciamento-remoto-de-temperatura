@@ -33,12 +33,9 @@ As dificuldades encontradas durante o desenvolvimento do projeto foram:
 
 - escolha de site para postar o blog que seja mais flexível e com mais recursos de apresentação.
 - prazo restrito haja visto que todos apresentam outras atividades durante o dia.
-- falta de conhecimento de como utilizar a comunicação do aplicativo com os sensores por bluetooth.
 - indefinição processo de comunicação com a nuvem.
 - indefinição do protocolo a ser adotado.
 - indefinição do escopo e, consequentemente, dos casos de uso dada a diversidade de fatores envolvidos.
-- desenvolver solução de conexão webservice, clientservice e cloud MQTT.
-- desenvolver solução de conexão bluetooth para o aplicativo Android a ser utilizado.
 - reaquadação dos casos de uso e diagramas.
 - definir as telas do aplicativo Android e qual software de projeto a ser utilizado.
 - como realizar a conexão com o firebase - ESP32 e este acessar as temperaturas mínimas e máximas.
