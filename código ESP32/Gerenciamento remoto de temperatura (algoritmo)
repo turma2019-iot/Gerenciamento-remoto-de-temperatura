@@ -1,176 +1,281 @@
 #include "WiFi.h"
-#include "ESPAsyncWebServer.h"
+#include <WebServer.h>
+#include <DNSServer.h>
+#include <WiFiManager.h>
 #include <Adafruit_Sensor.h>
 #include <DHT.h>
-
-// Replace with your network credentials
-const char* ssid = "rede";
-const char* password = "senha";
+#include <Servo.h>
+#include "FirebaseESP32.h"
 
 #define DHTPIN 27     // Digital pin connected to the DHT sensor
-#define R 21 // 21
-#define B 3 // RX0T
-#define sensorChuva 23
+#define TOUTCH_PIN T0 // ESP32 Pin D4
+#define sensorChuva 26
+#define FIREBASE_HOST "utfpr-oficina-iot.firebaseio.com"
+#define FIREBASE_AUTH "xevREMS2OfC1kCr590fcGsXUvWoZtAJQXAbUA8AZ"
+
+int touch_value = 100;
+int ventiladorPin = 21;
+int aquecedorPin = 22;
+static const int servoPin1 = 25;
+static const int servoPin2 = 33;
+String janelaStatus = "";
+String automaticoStatus = "";
+String ventiladorStatus = "";
+String aquecedorStatus = "";
+String ventiladorAutomatico = "";
+String aquecedorAutomatico = "";
+String address = "";
+float temperaturaAtual = 0;
+String temperaturaMinima = "0";
+String temperaturaMaxima = "0";
+int aberta1 = 180;
+int aberta2 = 0;
+int fechada = 90;
+
+bool chovendo = false;
+bool ventilando = false;
+bool aquecendo = false;
+bool janelaAberta = false;
+
+FirebaseJson ambienteData;
+FirebaseJsonArray dispositivos;
+Servo servo1;
+Servo servo2;
+FirebaseData firebaseData;
 
 // Uncomment the type of sensor in use:
 #define DHTTYPE    DHT11     // DHT 11
 
 DHT dht(DHTPIN, DHTTYPE);
 
-// Create AsyncWebServer object on port 80
-AsyncWebServer server(80);
+void fecharJanela() {
+  servo1.write(fechada);
+  servo2.write(fechada);
+  Firebase.setString(firebaseData, address + "/janela", "false");
+  janelaAberta = false;
+}
 
-String readDHTTemperature() {
-  // Sensor readings may also be up to 2 seconds 'old' (its a very slow sensor)
-  // Read temperature as Celsius (the default)
-  float t = dht.readTemperature();
+void abrirJanela() {
+  servo1.write(aberta1);
+  servo2.write(aberta2);
+  Firebase.setString(firebaseData, address + "/janela", "true");
+  janelaAberta = true;
+}
 
-  // Check if any reads failed and exit early (to try again).
-  if (isnan(t)) {    
-    Serial.println("Failed to read from DHT sensor!");
-    return "--";
+void desligarVentilador() {
+  digitalWrite(ventiladorPin, HIGH);
+  Firebase.setString(firebaseData, address + "/ventilador", "false");
+}
+
+void ligarVentilador() {
+  digitalWrite(ventiladorPin, LOW);
+  Firebase.setString(firebaseData, address + "/ventilador", "true");
+}
+
+void desligarAquecedor() {
+  digitalWrite(aquecedorPin, HIGH);
+  Firebase.setString(firebaseData, address + "/aquecedor", "false");
+}
+
+void ligarAquecedor() {
+  digitalWrite(aquecedorPin, LOW);
+  Firebase.setString(firebaseData, address + "/aquecedor", "true");
+}
+
+void verificarChuva() {
+  chovendo = digitalRead(sensorChuva) == LOW;
+  if (chovendo) {
+    Firebase.setString(firebaseData, address + "/chuva", "true");
+  } else {
+    Firebase.setString(firebaseData, address + "/chuva", "false");
+  }
+}
+
+void lerTemperatura() {
+  temperaturaAtual = dht.readTemperature();
+  String fireTemp = String(temperaturaAtual) + String("°C");
+  Firebase.setString(firebaseData, address + "/temperatura", fireTemp);
+}
+
+void mudaJanela() {
+  if (chovendo || temperaturaAtual < temperaturaMinima.toInt()) {
+    fecharJanela();
+  } else if (temperaturaAtual > temperaturaMaxima.toInt()) {
+    abrirJanela();
+  }
+}
+
+void mudaJanelaManual() {
+  if (janelaStatus == "true") {
+    abrirJanela();
   }
   else {
-    Serial.println(t);
-    return String(t);
+    fecharJanela();
   }
 }
 
-String readWeatherState() {
-  // Sensor readings may also be up to 2 seconds 'old' (its a very slow sensor)
-  bool weather = digitalRead(sensorChuva);
-  if (weather == LOW) {
-    Serial.println("Failed to read from DHT sensor!");
-    return "Chuva";
+void mudaVentilador() {
+  if (temperaturaAtual < temperaturaMaxima.toInt()) {
+    desligarVentilador();
+  }
+  else if (temperaturaAtual > temperaturaMaxima.toInt()) {
+    ligarVentilador();
+  }
+}
+
+void mudaVentiladorManual() {
+  if (ventiladorStatus == "true") {
+    ligarVentilador();
   }
   else {
-    return "Sem chuva";
+    desligarVentilador();
   }
 }
 
-const char index_html[] PROGMEM = R"rawliteral(
-<!DOCTYPE HTML><html>
-<head>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
-  <style>
-    html {
-     font-family: Arial;
-     display: inline-block;
-     margin: 0px auto;
-     text-align: center;
-    }
-    h2 { font-size: 3.0rem; }
-    p { font-size: 3.0rem; }
-    .units { font-size: 1.2rem; }
-    .texto { font-size: 2.0rem}
-    .dht-labels{
-      font-size: 1.5rem;
-      vertical-align:middle;
-      padding-bottom: 15px;
-    }
-  </style>
-</head>
-<body>
-  <h2>Mede temperatura</h2>
-  <p>
-    <i class="fas fa-thermometer-half" style="color:#059e8a;"></i> 
-    <span class="dht-labels">Temperature</span> 
-    <span id="temperature">%TEMPERATURE%</span>
-    <sup class="units">&deg;C</sup>
-  </p>
-  <p>
-    <i class="fas fa-tint" style="color:#00add6;"></i> 
-    <span class="dht-labels">Clima</span>
-    <BR/>
-    <span class="texto" id="clima">%CLIMA%</span>
-  </p>
-</body>
-<script>
-setInterval(function ( ) {
-  var xhttp = new XMLHttpRequest();
-  xhttp.onreadystatechange = function() {
-    if (this.readyState == 4 && this.status == 200) {
-      document.getElementById("temperature").innerHTML = this.responseText;
-    }
-  };
-  xhttp.open("GET", "/temperature", true);
-  xhttp.send();
-}, 10000 ) ;
-
-setInterval(function ( ) {
-  var xhttp = new XMLHttpRequest();
-  xhttp.onreadystatechange = function() {
-    if (this.readyState == 4 && this.status == 200) {
-      document.getElementById("clima").innerHTML = this.responseText;
-    }
-  };
-  xhttp.open("GET", "/clima", true);
-  xhttp.send();
-}, 10000 ) ;
-</script>
-</html>)rawliteral";
-
-// Replaces placeholder with DHT values
-String processor(const String& var){
-  //Serial.println(var);
-  if(var == "TEMPERATURE"){
-    return readDHTTemperature();
+void mudaAquecedor() {
+  if (temperaturaAtual < temperaturaMinima.toInt() && !janelaAberta) {
+    ligarAquecedor();
+  } else {
+    desligarAquecedor();
   }
-  else if(var == "CLIMA"){
-    return readWeatherState();
-  }
-  return String();
 }
 
-void setup(){
+void mudaAquecedorManual() {
+  if (aquecedorStatus == "true") {
+    ligarAquecedor();
+  }
+  else {
+    desligarAquecedor();
+  }
+}
+
+void lerDadosFirebase() {
+  Firebase.getString(firebaseData, address + "/janela", janelaStatus);
+  Serial.println("JanelaStatus " + janelaStatus);
+  delay(50);
+  Firebase.getString(firebaseData, address + "/automatico", automaticoStatus);
+  Serial.println("automaticoStatus " + automaticoStatus);
+  delay(50);
+  Firebase.getString(firebaseData, address + "/aquecedorAutomatico", aquecedorAutomatico);
+  Serial.println("aquecedorAutomatico " + aquecedorAutomatico);
+  delay(50);
+  Firebase.getString(firebaseData, address + "/ventiladorAutomatico", ventiladorAutomatico);
+  Serial.println("ventiladorAutomatico " + ventiladorAutomatico);
+  delay(50);
+  Firebase.getString(firebaseData, address + "/ventilador", ventiladorStatus);
+  Serial.println("ventiladorStatus " + ventiladorStatus);
+  delay(50);
+  Firebase.getString(firebaseData, address + "/aquecedor", aquecedorStatus);
+  Serial.println("aquecedorStatus " + aquecedorStatus);
+  delay(50);
+  Firebase.getString(firebaseData, address + "/temperaturaMinima", temperaturaMinima);
+  Serial.println("temperaturaMinima " + temperaturaMinima);
+  delay(50);
+  Firebase.getString(firebaseData, address + "/temperaturaMaxima", temperaturaMaxima);
+  Serial.println("temperaturaMaxima " + temperaturaMaxima);
+  delay(50);
+}
+
+//callback que indica que o ESP entrou no modo AP
+void configModeCallback (WiFiManager *myWiFiManager) {
+  //  Serial.println("Entered config mode");
+  Serial.println("Entrou no modo de configuração");
+  Serial.println(WiFi.softAPIP()); //imprime o IP do AP
+  Serial.println(myWiFiManager->getConfigPortalSSID()); //imprime o SSID criado da rede
+}
+
+//callback que indica que salvamos uma nova rede para se conectar (modo estação)
+void saveConfigCallback () {
+  //  Serial.println("Should save config");
+  Serial.println("Configuração salva");
+  Serial.println(WiFi.softAPIP()); //imprime o IP do AP
+}
+
+void setup() {
   // Serial port for debugging purposes
   Serial.begin(115200);
-  pinMode(R, OUTPUT);
-  pinMode(B, OUTPUT);
+  pinMode(TOUTCH_PIN, INPUT);
+  WiFiManager wifiManager;
   pinMode(sensorChuva, INPUT);
+  pinMode (ventiladorPin, OUTPUT);
+  pinMode (aquecedorPin, OUTPUT);
+
+  servo1.attach(servoPin1);
+  servo2.attach(servoPin2);
+  servo1.write(fechada);
+  servo2.write(fechada);
 
   dht.begin();
-  
-  // Connect to Wi-Fi
-  WiFi.begin(ssid, password);
-  while (WiFi.status() != WL_CONNECTED) {
-    delay(1000);
-    Serial.println("Connecting to WiFi..");
+
+  wifiManager.setAPCallback(configModeCallback);
+  wifiManager.setSaveConfigCallback(saveConfigCallback);
+  wifiManager.autoConnect("ESP_AP", "12345678");
+
+  Serial.println("MacAddress >>> " + WiFi.macAddress());
+  address = WiFi.macAddress();
+
+  Firebase.begin(FIREBASE_HOST, FIREBASE_AUTH);
+
+  if (!Firebase.getJSON(firebaseData, address))
+  {
+    ambienteData.add("nomeAmbiente", "sala");
+    ambienteData.add("ventilador", "false");
+    ambienteData.add("janela", "false");
+    ambienteData.add("temperatura", 23);
+    ambienteData.add("chuva", "false");
+    ambienteData.add("automatico", "true");
+    ambienteData.add("temperaturaMaxima", "26");
+    ambienteData.add("temperaturaMinima", "23");
+    ambienteData.add("aquecedor", "false");
+    ambienteData.add("aquecedorAutomatico", "false");
+    ambienteData.add("ventiladorAutomatico", "false");
+    Firebase.setJSON(firebaseData, address, ambienteData);
   }
 
-  // Print ESP32 Local IP Address
-  Serial.println(WiFi.localIP());
-
-  // Route for root / web page
-  server.on("/", HTTP_GET, [](AsyncWebServerRequest *request){
-    request->send_P(200, "text/html", index_html, processor);
-  });
-  server.on("/temperature", HTTP_GET, [](AsyncWebServerRequest *request){
-    request->send_P(200, "text/plain", readDHTTemperature().c_str());
-  });
-  server.on("/clima", HTTP_GET, [](AsyncWebServerRequest *request){
-    request->send_P(200, "text/plain", readWeatherState().c_str());
-  });
-
-  // Start server
-  server.begin();
+  if (Firebase.getArray(firebaseData, "dispositivos"))
+  {
+    Firebase.getArray(firebaseData, "dispositivos", &dispositivos);
+  }
+  dispositivos.add(address);
+  Firebase.setArray(firebaseData, "dispositivos", dispositivos);
 }
- 
-void loop(){
-  delay(5000);
 
-  float t = dht.readTemperature();
-
-  if(t > 27){
-    digitalWrite(R, LOW);
-    digitalWrite(B, HIGH);
-  }else if (t < 18){
-    digitalWrite(R, HIGH);
-    digitalWrite(B, LOW);
-  }else{
-    digitalWrite(R, HIGH);
-    digitalWrite(B, HIGH);
+void loop() {
+  WiFiManager wifiManager;
+  touch_value = touchRead(TOUTCH_PIN);
+  if ( touch_value < 30 ) {
+    Serial.println("resetar"); //tenta abrir o portal
+    if (!wifiManager.startConfigPortal("ESP_AP", "12345678") ) {
+      Serial.println("Falha ao conectar");
+      delay(2000);
+      ESP.restart();
+      delay(1000);
+    }
+    Serial.println("Conectou ESP_AP!!!");
+    Serial.println(WiFi.localIP());
   }
-  
+
+  delay(2000);
+
+  lerDadosFirebase();
+  lerTemperatura();
+  verificarChuva();
+
+  if (automaticoStatus == "true") {
+    mudaJanela();
+  } else {
+    mudaJanelaManual();
+  }
+
+  if (ventiladorAutomatico == "true") {
+    mudaVentilador();
+  } else {
+    mudaVentiladorManual();
+  }
+
+  if (aquecedorAutomatico == "true") {
+    mudaAquecedor();
+  } else {
+    mudaAquecedorManual();
+  }
 }
